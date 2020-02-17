@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from attention_modules import CBAM, SqueezeExcitationBlock
-from tam import TAM
+from vam import VAM
 
 
 # class BasicConv(nn.Module):
@@ -142,8 +142,8 @@ class ResidualBlock(nn.Module):
         elif attention == 'SE':
             block += [SqueezeExcitationBlock(output_ch)]
 
-        elif attention == 'TAM':
-            block += [TAM(output_ch, group_size, size)]
+        elif attention == 'VAM':
+            block += [VAM(output_ch, group_size, size)]
 
         if input_ch != output_ch:
             side_block = [nn.Conv2d(input_ch, output_ch, 1, stride=first_conv_stride, bias=False),
@@ -219,30 +219,40 @@ class ResidualNetwork(nn.Module):
             pass
 
         if n_layers == 18:
-            network += [RB(64, 64),
-                        RB(64, 64)]
+            network += [RB(64, 64, size=init_size),
+                        RB(64, 64, size=init_size)]
+            
+            init_size //= 2
 
-            network += [RB(64, 128, first_conv_stride=2),
-                        RB(128, 128)]
+            network += [RB(64, 128, first_conv_stride=2, size=init_size),
+                        RB(128, 128, size=init_size)]
 
-            network += [RB(128, 256, first_conv_stride=2),
-                        RB(256, 256)]
+            init_size //= 2
+            network += [RB(128, 256, first_conv_stride=2, size=init_size),
+                        RB(256, 256, size=init_size)]
 
-            network += [RB(256, 512, first_conv_stride=2),
-                        RB(512, 512)]
+            init_size //= 2
+            network += [RB(256, 512, first_conv_stride=2, size=init_size),
+                        RB(512, 512, size=init_size)]
             network += [nn.AdaptiveAvgPool2d((1, 1)), View(-1), nn.Linear(512, n_classes)]
 
         elif n_layers == 34:
-            network += [RB(64, 64) for _ in range(3)]
+            network += [RB(64, 64, size=init_size) for _ in range(3)]
+            
+            init_size //= 2
 
-            network += [RB(64, 128, first_conv_stride=2)]
-            network += [RB(128, 128) for _ in range(3)]
+            network += [RB(64, 128, first_conv_stride=2, size=init_size)]
+            network += [RB(128, 128, size=init_size) for _ in range(3)]
+            
+            init_size //= 2
 
-            network += [RB(128, 256, first_conv_stride=2)]
-            network += [RB(256, 256) for _ in range(5)]
+            network += [RB(128, 256, first_conv_stride=2, size=init_size)]
+            network += [RB(256, 256, size=init_size) for _ in range(5)]
 
-            network += [RB(256, 512, first_conv_stride=2)]
-            network += [RB(512, 512) for _ in range(2)]
+            init_size //= 2
+
+            network += [RB(256, 512, first_conv_stride=2, size=init_size)]
+            network += [RB(512, 512, size=init_size) for _ in range(2)]
 
             network += [nn.AdaptiveAvgPool2d((1, 1)), View(-1), nn.Linear(512, n_classes)]
 

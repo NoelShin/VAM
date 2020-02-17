@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
 from PIL import Image
-import seaborn as sns; sns.set()
+# import seaborn as sns; sns.set()
 
 
 def save_attention_map(tensor, file_name, heatmap=True):

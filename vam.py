@@ -22,6 +22,7 @@ class SpatialBranch(nn.Module):
         self.conv = nn.Conv1d(size * size, 1, kernel_size=1, bias=False)
 
     def forward(self, x):
+        # print(x.shape)
         n, c, h, w = x.shape
         x = x.view(n, c, h * w).transpose(1, 2)
         x = self.conv(x).transpose(1, 2)
