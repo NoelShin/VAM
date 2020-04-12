@@ -7,19 +7,20 @@ class BaseOptions(object):
     def __init__(self):
         parser = argparse.ArgumentParser()
         parser.add_argument('--debug', action='store_true', default=False)
-        parser.add_argument('--gpu_ids', type=str, default='2')
+        parser.add_argument('--gpu_ids', type=str, default='0, 1, 2, 3')
         parser.add_argument('--manual_seed', type=int, default=0)
+        parser.add_argument('--additional_name', type=str, default="ln_weighted_2")
 
         # Backbone options
         parser.add_argument('--backbone_network', type=str, default='ResNet',
                             help='Choose among [ResNet, WideResNet, ResNext]')
-        parser.add_argument('--n_layers', type=int, default=50, help='# of weight layers.')
+        parser.add_argument('--n_layers', type=int, default=34, help='# of weight layers.')
         parser.add_argument('--n_groups', type=int, default=8, help='ResNext cardinality.')
-        parser.add_argument('--widening_factor', type=float, default=8.0, help='WideResNet parameter')
+        parser.add_argument('--widening_factor', type=float, default=2.0, help='WideResNet parameter')
         parser.add_argument('--width_multiplier', type=float, default=1.0, help='MobileNet parameter')
 
         # Attention options
-        parser.add_argument('--attention_module', type=str, default='CBAM',
+        parser.add_argument('--attention_module', type=str, default='VAM',
                             help='Choose among [BAM, CBAM, None, SE, TAM]')
         # parser.add_argument('--conversion_factor', type=int, default=8)
         parser.add_argument('--group_size', type=int, default=2, help='TAM parameter')
@@ -31,7 +32,7 @@ class BaseOptions(object):
         parser.add_argument('--dir_checkpoints', type=str, default='./checkpoints')
         parser.add_argument('--iter_report', type=int, default=5)
         parser.add_argument('--iter_save', type=int, default=100000)
-        parser.add_argument('--n_workers', type=int, default=0)
+        parser.add_argument('--n_workers', type=int, default=16)
         parser.add_argument('--resume', action='store_true', default=False)
 
         self.parser = parser
@@ -46,8 +47,8 @@ class BaseOptions(object):
             args.weight_decay = 1e-4
 
         elif args.dataset == 'ImageNet1K':
-            args.batch_size = 64  # default 256
-            args.dir_dataset = '/userhome/shin_g/Desktop/Projects/SCBAM_1/datasets/ImageNet1K'
+            args.batch_size = 256  # default 256
+            args.dir_dataset = '/datasets/ImageNet'
             args.epochs = 90
             args.lr = 0.1
             args.momentum = 0.9
@@ -65,14 +66,14 @@ class BaseOptions(object):
         self.define_hyper_params(args)
 
         if args.dataset != 'ImageNet1K':
-            args.dir_dataset = './datasets/{}'.format(args.dataset)
+            args.dir_dataset = '/mnt/dataset/ImageNet' #{}'.format(args.dataset)
 
         model_name = args.backbone_network
         model_name += str(args.n_layers) if 'Res' in args.backbone_network else ''
         model_name += '_' + str(args.widening_factor) if args.backbone_network == 'WideResNet' else ''
         model_name += '_' + args.attention_module
         model_name += '_' + str(args.group_size) if args.attention_module == 'TAM' else ''
-        model_name += '_3'
+        model_name += '_' + args.additional_name
 
         args.dir_analysis = os.path.join(args.dir_checkpoints, args.dataset, model_name, 'Analysis')
         args.dir_model = os.path.join(args.dir_checkpoints, args.dataset, model_name, 'Model')

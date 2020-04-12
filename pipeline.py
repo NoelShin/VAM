@@ -59,15 +59,35 @@ class CustomCIFAR100(Dataset):
 class CustomImageNet1K(Dataset):
     def __init__(self, opt, val=False):
         super(CustomImageNet1K, self).__init__()
-        dir_dataset = opt.dir_dataset
-        self.dir_input = sorted(glob(os.path.join(dir_dataset, 'Val' if val else 'Train', '*.JPEG')))
+        dir_dataset = os.path.join("/mnt/dataset/ImageNet", "val" if val else "train")
+        list_dir = sorted(glob(os.path.join(dir_dataset, '*')))
+       
+        self.list_input = [] #sorted(glob(os.path.join(dir_dataset, 'val' if val else 'train', '*'))) #.JPEG')))
+        for dir in list_dir:
+            self.list_input.extend(glob(os.path.join(dir_dataset, dir, "*.JPEG")))
+
         if val:
-            path_label = os.path.join("/userhome/shin_g/Desktop/Projects/SCBAM_1/ILSVRC2012_validation_ground_truth.txt")
-            label = list()
+            path_label = "/mnt/home/gishin/training_WNID2class.txt"
+            dict_WNID2label = dict()
             with open(path_label, 'r') as txt_file:
-                for row in txt_file:
-                    label.append(int(row) - 1)
-            self.label = label
+                csv_file = reader(txt_file, delimiter=',')
+                for i, row in enumerate(csv_file):
+                    
+                    if i != 0:
+                        if int(row[1]) - 1 == 1000:
+                            break
+                        dict_WNID2label.update({row[0]: int(row[1]) - 1})  # -1 is for making the label start from 0.
+                    
+                    else:
+                        pass
+            self.label = dict_WNID2label
+            # print(len(self.list_input))
+            #path_label = os.path.join("/mnt/home/gishin/ILSVRC2012_validation_ground_truth.txt")
+            #label = list()
+            #with open(path_label, 'r') as txt_file:
+            #    for row in txt_file:
+            #        label.append(int(row) - 1)
+            #self.label = label
 
             self.transform = Compose([Resize(256),
                                       CenterCrop(224),
@@ -75,14 +95,16 @@ class CustomImageNet1K(Dataset):
                                       Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
 
         else:
-            print(opt.dir_dataset)
-            path_label = "/userhome/shin_g/Desktop/Projects/SCBAM_1/training_WNID2class.txt"
+            path_label = "/mnt/home/gishin/training_WNID2class.txt"
             dict_WNID2label = dict()
             with open(path_label, 'r') as txt_file:
                 csv_file = reader(txt_file, delimiter=',')
                 for i, row in enumerate(csv_file):
                     if i != 0:
+                        if int(row[1]) - 1 == 1000:
+                            break
                         dict_WNID2label.update({row[0]: int(row[1]) - 1})  # -1 is for making the label start from 0.
+                        
                     else:
                         pass
             self.label = dict_WNID2label
@@ -92,18 +114,23 @@ class CustomImageNet1K(Dataset):
                                       ToTensor(),
                                       Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
         self.val = val
+        
 
     def __getitem__(self, index):
-        path_image = self.dir_input[index]
+        path_image = self.list_input[index]
         if self.val:
-            return self.transform(Image.open(path_image).convert('RGB')), self.label[index]
+            WNID = os.path.basename(os.path.dirname(path_image)) #os.path.splitext(os.path.split(path_image)[-1])[0][:9]
+
+            return self.transform(Image.open(path_image).convert('RGB')), self.label[WNID]
 
         else:
-            WNID = os.path.splitext(os.path.split(path_image)[-1])[0][:9]
+            WNID = os.path.basename(os.path.dirname(path_image)) # os.path.splitext(os.path.split(path_image)[-1])[0][:9]
+           
+
             return self.transform(Image.open(path_image).convert('RGB')), self.label[WNID]
 
     def __len__(self):
-        return len(self.dir_input)
+        return len(self.list_input)
 
 
 class CustomSVHN(Dataset):

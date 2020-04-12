@@ -4,6 +4,8 @@ if __name__ == '__main__':
     import torch
     import torch.nn as nn
     from torch.utils.data import DataLoader
+    from torchvision.datasets import ImageNet
+    from torchvision.transforms import CenterCrop, Compose, Normalize, RandomCrop, RandomHorizontalFlip, RandomResizedCrop, Resize, ToTensor
     import numpy as np
     from options import BaseOptions
     from utils import adjust_lr, cal_top1_and_top5
@@ -39,7 +41,11 @@ if __name__ == '__main__':
 
     elif dataset_name == 'ImageNet1K':
         from pipeline import CustomImageNet1K
-
+        #transforms = Compose([RandomResizedCrop(224), RandomHorizontalFlip(), ToTensor(),
+        #                      Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
+        #transforms_val = Compose([Resize(256), CenterCrop(224), ToTensor(), Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
+        #dataset = ImageNet("/mnt/datasets/ImageNet", split="train", transforms=transforms)
+        #test_dataset = ImageNet("/mnt/datasets/ImageNet", split="val", transforms=transforms_val)
         dataset = CustomImageNet1K(opt, val=False)
         test_dataset = CustomImageNet1K(opt, val=True)
 
@@ -62,6 +68,7 @@ if __name__ == '__main__':
                                   batch_size=opt.batch_size,
                                   num_workers=opt.n_workers,
                                   shuffle=False)
+    
 
     backbone_network = opt.backbone_network
     n_layers = opt.n_layers
@@ -165,6 +172,7 @@ if __name__ == '__main__':
 
         for input, label in tqdm(data_loader):
             iter_total += 1
+            # print(input.shape, label)
 
             input, label = input.to(device), label.to(device)
 
@@ -222,6 +230,8 @@ if __name__ == '__main__':
                 top1, top5 = cal_top1_and_top5(output, label)
                 list_top1.append(top1.cpu().numpy())
                 list_top5.append(top5.cpu().numpy())
+                if opt.debug:
+                    break
 
             state = {'epoch': epoch + 1,
                      'state_dict': model.state_dict(),

@@ -9,11 +9,13 @@ class VAM(nn.Module):
         self.channel_branch = nn.Conv2d(n_ch, 1, 1, bias=False)
         self.spatial_branch = SpatialBranch(n_ch, size)
         
-        self.bn_sp = nn.BatchNorm2d(n_ch)
-        self.bn_ch = nn.BatchNorm2d(1)
-
+        self.ln_sp = nn.LayerNorm((n_ch, 1, 1)) # nn.BatchNorm2d(n_ch)
+        self.ln_ch = nn.LayerNorm((1, size, size)) # nn.BatchNorm2d(1)
+        # self.ln = nn.LayerNorm((n_ch, size, size), elementwise_affine=True)
     def forward(self, x):
-        return x * torch.sigmoid(self.bn_sp(self.spatial_branch(x)) + self.bn_ch(self.channel_branch(x)))
+        # return x * torch.sigmoid(self.ln(self.spatial_branch(x) + self.channel_branch(x)))
+        return x * torch.sigmoid(self.ln_sp(self.spatial_branch(x)) + self.ln_ch(self.channel_branch(x)))
+        # return x * torch.sigmoid(self.ln(self.spatial_branch(x) + self.channel_branch(x)))
 
 
 class SpatialBranch(nn.Module):
@@ -22,6 +24,7 @@ class SpatialBranch(nn.Module):
         self.conv = nn.Conv1d(size * size, 1, kernel_size=1, bias=False)
 
     def forward(self, x):
+        # print(x.shape)
         n, c, h, w = x.shape
         x = x.view(n, c, h * w).transpose(1, 2)
         x = self.conv(x).transpose(1, 2)

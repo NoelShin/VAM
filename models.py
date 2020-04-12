@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from attention_modules import CBAM, SqueezeExcitationBlock
-from tam import TAM
+from vam import VAM
 
 
 # class BasicConv(nn.Module):
@@ -142,8 +142,8 @@ class ResidualBlock(nn.Module):
         elif attention == 'SE':
             block += [SqueezeExcitationBlock(output_ch)]
 
-        elif attention == 'TAM':
-            block += [TAM(output_ch, group_size, size)]
+        elif attention == 'VAM':
+            block += [VAM(output_ch, group_size, size)]
 
         if input_ch != output_ch:
             side_block = [nn.Conv2d(input_ch, output_ch, 1, stride=first_conv_stride, bias=False),
@@ -219,30 +219,40 @@ class ResidualNetwork(nn.Module):
             pass
 
         if n_layers == 18:
-            network += [RB(64, 64),
-                        RB(64, 64)]
+            network += [RB(64, 64, size=init_size),
+                        RB(64, 64, size=init_size)]
+            
+            init_size //= 2
 
-            network += [RB(64, 128, first_conv_stride=2),
-                        RB(128, 128)]
+            network += [RB(64, 128, first_conv_stride=2, size=init_size),
+                        RB(128, 128, size=init_size)]
 
-            network += [RB(128, 256, first_conv_stride=2),
-                        RB(256, 256)]
+            init_size //= 2
+            network += [RB(128, 256, first_conv_stride=2, size=init_size),
+                        RB(256, 256, size=init_size)]
 
-            network += [RB(256, 512, first_conv_stride=2),
-                        RB(512, 512)]
+            init_size //= 2
+            network += [RB(256, 512, first_conv_stride=2, size=init_size),
+                        RB(512, 512, size=init_size)]
             network += [nn.AdaptiveAvgPool2d((1, 1)), View(-1), nn.Linear(512, n_classes)]
 
         elif n_layers == 34:
-            network += [RB(64, 64) for _ in range(3)]
+            network += [RB(64, 64, size=init_size) for _ in range(3)]
+            
+            init_size //= 2
 
-            network += [RB(64, 128, first_conv_stride=2)]
-            network += [RB(128, 128) for _ in range(3)]
+            network += [RB(64, 128, first_conv_stride=2, size=init_size)]
+            network += [RB(128, 128, size=init_size) for _ in range(3)]
+            
+            init_size //= 2
 
-            network += [RB(128, 256, first_conv_stride=2)]
-            network += [RB(256, 256) for _ in range(5)]
+            network += [RB(128, 256, first_conv_stride=2, size=init_size)]
+            network += [RB(256, 256, size=init_size) for _ in range(5)]
 
-            network += [RB(256, 512, first_conv_stride=2)]
-            network += [RB(512, 512) for _ in range(2)]
+            init_size //= 2
+
+            network += [RB(256, 512, first_conv_stride=2, size=init_size)]
+            network += [RB(512, 512, size=init_size) for _ in range(2)]
 
             network += [nn.AdaptiveAvgPool2d((1, 1)), View(-1), nn.Linear(512, n_classes)]
 
@@ -332,12 +342,13 @@ class ResidualNetwork(nn.Module):
 class ResNext(nn.Module):
     def __init__(self, n_layers=50, n_groups=32, dataset='ImageNet', attention='SE', group_size=2):
         super(ResNext, self).__init__()
-        RB = partial(ResidualBlock, attention=attention, n_groups=n_groups, group_size=group_size)
+        RB = partial(ResidualBlock, attention=attention, group_size=group_size)
         if dataset == 'ImageNet':
             network = [nn.Conv2d(3, 64, 7, stride=2, padding=3, bias=False),
                        nn.BatchNorm2d(64),
                        nn.ReLU(inplace=True),
                        nn.MaxPool2d(kernel_size=3, stride=2, padding=1)]
+            init_size = 56
             n_classes = 1000
 
         elif dataset == 'CIFAR10':
@@ -408,13 +419,14 @@ class WideResNet(nn.Module):
         N = (n_layers - 4) // 6
 
         RB = partial(ResidualBlock, attention=attention, pre_activation=True, group_size=group_size)
-        if dataset == 'ImageNet':
-            network = [nn.Conv2d(3, 64, 7, stride=2, padding=3, bias=False),
-                       nn.BatchNorm2d(64),
+        if dataset == 'ImageNet1K':
+            network = [nn.Conv2d(3, 16, 7, stride=2, padding=3, bias=False),
+                       nn.BatchNorm2d(16),
                        nn.ReLU(inplace=True),
                        nn.MaxPool2d(kernel_size=3, stride=2, padding=1)]
-            init_ch = 64
+            init_ch = 16
             n_ch = int(init_ch * widening_factor)
+            init_size = 56
             n_classes = 1000
 
         elif dataset == 'CIFAR10':
@@ -441,17 +453,21 @@ class WideResNet(nn.Module):
             n_ch = int(init_ch * widening_factor)
             n_classes = 10
 
-        network += [RB(init_ch, n_ch)]
+        network += [RB(init_ch, n_ch, size=init_size)]
         for _ in range(N - 1):
-            network += [RB(n_ch, n_ch)]
+            network += [RB(n_ch, n_ch, size=init_size)]
+        
+        init_size //= 2
 
-        network += [RB(n_ch, 2 * n_ch, first_conv_stride=2)]
+        network += [RB(n_ch, 2 * n_ch, size=init_size, first_conv_stride=2)]
         for _ in range(N - 1):
-            network += [RB(2 * n_ch, 2 * n_ch)]
+            network += [RB(2 * n_ch, 2 * n_ch, size=init_size)]
+        
+        init_size //= 2
 
-        network += [RB(2 * n_ch, 4 * n_ch, first_conv_stride=2)]
+        network += [RB(2 * n_ch, 4 * n_ch, size=init_size, first_conv_stride=2)]
         for _ in range(N - 1):
-            network += [RB(4 * n_ch, 4 * n_ch)]
+            network += [RB(4 * n_ch, 4 * n_ch, size=init_size)]
 
         network += [nn.BatchNorm2d(4 * n_ch),
                     nn.ReLU(True)]
