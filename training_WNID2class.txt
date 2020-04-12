@@ -1,0 +1,1861 @@
+WNID, Class(Category), Object_name
+n02119789, 1, kit fox, Vulpes macrotis
+n02100735, 2, English setter
+n02110185, 3, Siberian husky
+n02096294, 4, Australian terrier
+n02102040, 5, English springer, English springer spaniel
+n02066245, 6, grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus
+n02509815, 7, lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens
+n02124075, 8, Egyptian cat
+n02417914, 9, ibex, Capra ibex
+n02123394, 10, Persian cat
+n02125311, 11, cougar, puma, catamount, mountain lion, painter, panther, Felis concolor
+n02423022, 12, gazelle
+n02346627, 13, porcupine, hedgehog
+n02077923, 14, sea lion
+n02110063, 15, malamute, malemute, Alaskan malamute
+n02447366, 16, badger
+n02109047, 17, Great Dane
+n02089867, 18, Walker hound, Walker foxhound
+n02102177, 19, Welsh springer spaniel
+n02091134, 20, whippet
+n02092002, 21, Scottish deerhound, deerhound
+n02071294, 22, killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+n02442845, 23, mink
+n02504458, 24, African elephant, Loxodonta africana
+n02092339, 25, Weimaraner
+n02098105, 26, soft-coated wheaten terrier
+n02096437, 27, Dandie Dinmont, Dandie Dinmont terrier
+n02114712, 28, red wolf, maned wolf, Canis rufus, Canis niger
+n02105641, 29, Old English sheepdog, bobtail
+n02128925, 30, jaguar, panther, Panthera onca, Felis onca
+n02091635, 31, otterhound, otter hound
+n02088466, 32, bloodhound, sleuthhound
+n02096051, 33, Airedale, Airedale terrier
+n02117135, 34, hyena, hyaena
+n02138441, 35, meerkat, mierkat
+n02097130, 36, giant schnauzer
+n02493509, 37, titi, titi monkey
+n02457408, 38, three-toed sloth, ai, Bradypus tridactylus
+n02389026, 39, sorrel
+n02443484, 40, black-footed ferret, ferret, Mustela nigripes
+n02110341, 41, dalmatian, coach dog, carriage dog
+n02089078, 42, black-and-tan coonhound
+n02086910, 43, papillon
+n02445715, 44, skunk, polecat, wood pussy
+n02093256, 45, Staffordshire bullterrier, Staffordshire bull terrier
+n02113978, 46, Mexican hairless
+n02106382, 47, Bouvier des Flandres, Bouviers des Flandres
+n02441942, 48, weasel
+n02113712, 49, miniature poodle
+n02113186, 50, Cardigan, Cardigan Welsh corgi
+n02105162, 51, malinois
+n02415577, 52, bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis
+n02356798, 53, fox squirrel, eastern fox squirrel, Sciurus niger
+n02488702, 54, colobus, colobus monkey
+n02123159, 55, tiger cat
+n02098413, 56, Lhasa, Lhasa apso
+n02422699, 57, impala, Aepyceros melampus
+n02114855, 58, coyote, prairie wolf, brush wolf, Canis latrans
+n02094433, 59, Yorkshire terrier
+n02111277, 60, Newfoundland, Newfoundland dog
+n02132136, 61, brown bear, bruin, Ursus arctos
+n02119022, 62, red fox, Vulpes vulpes
+n02091467, 63, Norwegian elkhound, elkhound
+n02106550, 64, Rottweiler
+n02422106, 65, hartebeest
+n02091831, 66, Saluki, gazelle hound
+n02120505, 67, grey fox, gray fox, Urocyon cinereoargenteus
+n02104365, 68, schipperke
+n02086079, 69, Pekinese, Pekingese, Peke
+n02112706, 70, Brabancon griffon
+n02098286, 71, West Highland white terrier
+n02095889, 72, Sealyham terrier, Sealyham
+n02484975, 73, guenon, guenon monkey
+n02137549, 74, mongoose
+n02500267, 75, indri, indris, Indri indri, Indri brevicaudatus
+n02129604, 76, tiger, Panthera tigris
+n02090721, 77, Irish wolfhound
+n02396427, 78, wild boar, boar, Sus scrofa
+n02108000, 79, EntleBucher
+n02391049, 80, zebra
+n02412080, 81, ram, tup
+n02108915, 82, French bulldog
+n02480495, 83, orangutan, orang, orangutang, Pongo pygmaeus
+n02110806, 84, basenji
+n02128385, 85, leopard, Panthera pardus
+n02107683, 86, Bernese mountain dog
+n02085936, 87, Maltese dog, Maltese terrier, Maltese
+n02094114, 88, Norfolk terrier
+n02087046, 89, toy terrier
+n02100583, 90, vizsla, Hungarian pointer
+n02096177, 91, cairn, cairn terrier
+n02494079, 92, squirrel monkey, Saimiri sciureus
+n02105056, 93, groenendael
+n02101556, 94, clumber, clumber spaniel
+n02123597, 95, Siamese cat, Siamese
+n02481823, 96, chimpanzee, chimp, Pan troglodytes
+n02105505, 97, komondor
+n02088094, 98, Afghan hound, Afghan
+n02085782, 99, Japanese spaniel
+n02489166, 100, proboscis monkey, Nasalis larvatus
+n02364673, 101, guinea pig, Cavia cobaya
+n02114548, 102, white wolf, Arctic wolf, Canis lupus tundrarum
+n02134084, 103, ice bear, polar bear, Ursus Maritimus, Thalarctos maritimus
+n02480855, 104, gorilla, Gorilla gorilla
+n02090622, 105, borzoi, Russian wolfhound
+n02113624, 106, toy poodle
+n02093859, 107, Kerry blue terrier
+n02403003, 108, ox
+n02097298, 109, Scotch terrier, Scottish terrier, Scottie
+n02108551, 110, Tibetan mastiff
+n02493793, 111, spider monkey, Ateles geoffroyi
+n02107142, 112, Doberman, Doberman pinscher
+n02096585, 113, Boston bull, Boston terrier
+n02107574, 114, Greater Swiss Mountain dog
+n02107908, 115, Appenzeller
+n02086240, 116, Shih-Tzu
+n02102973, 117, Irish water spaniel
+n02112018, 118, Pomeranian
+n02093647, 119, Bedlington terrier
+n02397096, 120, warthog
+n02437312, 121, Arabian camel, dromedary, Camelus dromedarius
+n02483708, 122, siamang, Hylobates syndactylus, Symphalangus syndactylus
+n02097047, 123, miniature schnauzer
+n02106030, 124, collie
+n02099601, 125, golden retriever
+n02093991, 126, Irish terrier
+n02110627, 127, affenpinscher, monkey pinscher, monkey dog
+n02106166, 128, Border collie
+n02326432, 129, hare
+n02108089, 130, boxer
+n02097658, 131, silky terrier, Sydney silky
+n02088364, 132, beagle
+n02111129, 133, Leonberg
+n02100236, 134, German short-haired pointer
+n02486261, 135, patas, hussar monkey, Erythrocebus patas
+n02115913, 136, dhole, Cuon alpinus
+n02486410, 137, baboon
+n02487347, 138, macaque
+n02099849, 139, Chesapeake Bay retriever
+n02108422, 140, bull mastiff
+n02104029, 141, kuvasz
+n02492035, 142, capuchin, ringtail, Cebus capucinus
+n02110958, 143, pug, pug-dog
+n02099429, 144, curly-coated retriever
+n02094258, 145, Norwich terrier
+n02099267, 146, flat-coated retriever
+n02395406, 147, hog, pig, grunter, squealer, Sus scrofa
+n02112350, 148, keeshond
+n02109961, 149, Eskimo dog, husky
+n02101388, 150, Brittany spaniel
+n02113799, 151, standard poodle
+n02095570, 152, Lakeland terrier
+n02128757, 153, snow leopard, ounce, Panthera uncia
+n02101006, 154, Gordon setter
+n02115641, 155, dingo, warrigal, warragal, Canis dingo
+n02097209, 156, standard schnauzer
+n02342885, 157, hamster
+n02097474, 158, Tibetan terrier, chrysanthemum dog
+n02120079, 159, Arctic fox, white fox, Alopex lagopus
+n02095314, 160, wire-haired fox terrier
+n02088238, 161, basset, basset hound
+n02408429, 162, water buffalo, water ox, Asiatic buffalo, Bubalus bubalis
+n02133161, 163, American black bear, black bear, Ursus americanus, Euarctos americanus
+n02328150, 164, Angora, Angora rabbit
+n02410509, 165, bison
+n02492660, 166, howler monkey, howler
+n02398521, 167, hippopotamus, hippo, river horse, Hippopotamus amphibius
+n02112137, 168, chow, chow chow
+n02510455, 169, giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca
+n02093428, 170, American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier
+n02105855, 171, Shetland sheepdog, Shetland sheep dog, Shetland
+n02111500, 172, Great Pyrenees
+n02085620, 173, Chihuahua
+n02123045, 174, tabby, tabby cat
+n02490219, 175, marmoset
+n02099712, 176, Labrador retriever
+n02109525, 177, Saint Bernard, St Bernard
+n02454379, 178, armadillo
+n02111889, 179, Samoyed, Samoyede
+n02088632, 180, bluetick
+n02090379, 181, redbone
+n02443114, 182, polecat, fitch, foulmart, foumart, Mustela putorius
+n02361337, 183, marmot
+n02105412, 184, kelpie
+n02483362, 185, gibbon, Hylobates lar
+n02437616, 186, llama
+n02107312, 187, miniature pinscher
+n02325366, 188, wood rabbit, cottontail, cottontail rabbit
+n02091032, 189, Italian greyhound
+n02129165, 190, lion, king of beasts, Panthera leo
+n02102318, 191, cocker spaniel, English cocker spaniel, cocker
+n02100877, 192, Irish setter, red setter
+n02074367, 193, dugong, Dugong dugon
+n02504013, 194, Indian elephant, Elephas maximus
+n02363005, 195, beaver
+n02102480, 196, Sussex spaniel
+n02113023, 197, Pembroke, Pembroke Welsh corgi
+n02086646, 198, Blenheim spaniel
+n02497673, 199, Madagascar cat, ring-tailed lemur, Lemur catta
+n02087394, 200, Rhodesian ridgeback
+n02127052, 201, lynx, catamount
+n02116738, 202, African hunting dog, hyena dog, Cape hunting dog, Lycaon pictus
+n02488291, 203, langur
+n02091244, 204, Ibizan hound, Ibizan Podenco
+n02114367, 205, timber wolf, grey wolf, gray wolf, Canis lupus
+n02130308, 206, cheetah, chetah, Acinonyx jubatus
+n02089973, 207, English foxhound
+n02105251, 208, briard
+n02134418, 209, sloth bear, Melursus ursinus, Ursus ursinus
+n02093754, 210, Border terrier
+n02106662, 211, German shepherd, German shepherd dog, German police dog, alsatian
+n02444819, 212, otter
+n01882714, 213, koala, koala bear, kangaroo bear, native bear, Phascolarctos cinereus
+n01871265, 214, tusker
+n01872401, 215, echidna, spiny anteater, anteater
+n01877812, 216, wallaby, brush kangaroo
+n01873310, 217, platypus, duckbill, duckbilled platypus, duck-billed platypus, Ornithorhynchus anatinus
+n01883070, 218, wombat
+n04086273, 219, revolver, six-gun, six-shooter
+n04507155, 220, umbrella
+n04147183, 221, schooner
+n04254680, 222, soccer ball
+n02672831, 223, accordion, piano accordion, squeeze box
+n02219486, 224, ant, emmet, pismire
+n02317335, 225, starfish, sea star
+n01968897, 226, chambered nautilus, pearly nautilus, nautilus
+n03452741, 227, grand piano, grand
+n03642806, 228, laptop, laptop computer
+n07745940, 229, strawberry
+n02690373, 230, airliner
+n04552348, 231, warplane, military plane
+n02692877, 232, airship, dirigible
+n02782093, 233, balloon
+n04266014, 234, space shuttle
+n03344393, 235, fireboat
+n03447447, 236, gondola
+n04273569, 237, speedboat
+n03662601, 238, lifeboat
+n02951358, 239, canoe
+n04612504, 240, yawl
+n02981792, 241, catamaran
+n04483307, 242, trimaran
+n03095699, 243, container ship, containership, container vessel
+n03673027, 244, liner, ocean liner
+n03947888, 245, pirate, pirate ship
+n02687172, 246, aircraft carrier, carrier, flattop, attack aircraft carrier
+n04347754, 247, submarine, pigboat, sub, U-boat
+n04606251, 248, wreck
+n03478589, 249, half track
+n04389033, 250, tank, army tank, armored combat vehicle, armoured combat vehicle
+n03773504, 251, missile
+n02860847, 252, bobsled, bobsleigh, bob
+n03218198, 253, dogsled, dog sled, dog sleigh
+n02835271, 254, bicycle-built-for-two, tandem bicycle, tandem
+n03792782, 255, mountain bike, all-terrain bike, off-roader
+n03393912, 256, freight car
+n03895866, 257, passenger car, coach, carriage
+n02797295, 258, barrow, garden cart, lawn cart, wheelbarrow
+n04204347, 259, shopping cart
+n03791053, 260, motor scooter, scooter
+n03384352, 261, forklift
+n03272562, 262, electric locomotive
+n04310018, 263, steam locomotive
+n02704792, 264, amphibian, amphibious vehicle
+n02701002, 265, ambulance
+n02814533, 266, beach wagon, station wagon, wagon, estate car, beach waggon, station waggon, waggon
+n02930766, 267, cab, hack, taxi, taxicab
+n03100240, 268, convertible
+n03594945, 269, jeep, landrover
+n03670208, 270, limousine, limo
+n03770679, 271, minivan
+n03777568, 272, Model T
+n04037443, 273, racer, race car, racing car
+n04285008, 274, sports car, sport car
+n03444034, 275, go-kart
+n03445924, 276, golfcart, golf cart
+n03785016, 277, moped
+n04252225, 278, snowplow, snowplough
+n03345487, 279, fire engine, fire truck
+n03417042, 280, garbage truck, dustcart
+n03930630, 281, pickup, pickup truck
+n04461696, 282, tow truck, tow car, wrecker
+n04467665, 283, trailer truck, tractor trailer, trucking rig, rig, articulated lorry, semi
+n03796401, 284, moving van
+n03977966, 285, police van, police wagon, paddy wagon, patrol wagon, wagon, black Maria
+n04065272, 286, recreational vehicle, RV, R.V.
+n04335435, 287, streetcar, tram, tramcar, trolley, trolley car
+n04252077, 288, snowmobile
+n04465501, 289, tractor
+n03776460, 290, mobile home, manufactured home
+n04482393, 291, tricycle, trike, velocipede
+n04509417, 292, unicycle, monocycle
+n03538406, 293, horse cart, horse-cart
+n03599486, 294, jinrikisha, ricksha, rickshaw
+n03868242, 295, oxcart
+n02804414, 296, bassinet
+n03125729, 297, cradle
+n03131574, 298, crib, cot
+n03388549, 299, four-poster
+n02870880, 300, bookcase
+n03018349, 301, china cabinet, china closet
+n03742115, 302, medicine chest, medicine cabinet
+n03016953, 303, chiffonier, commode
+n04380533, 304, table lamp
+n03337140, 305, file, file cabinet, filing cabinet
+n03891251, 306, park bench
+n02791124, 307, barber chair
+n04429376, 308, throne
+n03376595, 309, folding chair
+n04099969, 310, rocking chair, rocker
+n04344873, 311, studio couch, day bed
+n04447861, 312, toilet seat
+n03179701, 313, desk
+n03982430, 314, pool table, billiard table, snooker table
+n03201208, 315, dining table, board
+n03290653, 316, entertainment center
+n04550184, 317, wardrobe, closet, press
+n07742313, 318, Granny Smith
+n07747607, 319, orange
+n07749582, 320, lemon
+n07753113, 321, fig
+n07753275, 322, pineapple, ananas
+n07753592, 323, banana
+n07754684, 324, jackfruit, jak, jack
+n07760859, 325, custard apple
+n07768694, 326, pomegranate
+n12267677, 327, acorn
+n12620546, 328, hip, rose hip, rosehip
+n13133613, 329, ear, spike, capitulum
+n11879895, 330, rapeseed
+n12144580, 331, corn
+n12768682, 332, buckeye, horse chestnut, conker
+n03854065, 333, organ, pipe organ
+n04515003, 334, upright, upright piano
+n03017168, 335, chime, bell, gong
+n03249569, 336, drum, membranophone, tympan
+n03447721, 337, gong, tam-tam
+n03720891, 338, maraca
+n03721384, 339, marimba, xylophone
+n04311174, 340, steel drum
+n02787622, 341, banjo
+n02992211, 342, cello, violoncello
+n04536866, 343, violin, fiddle
+n03495258, 344, harp
+n02676566, 345, acoustic guitar
+n03272010, 346, electric guitar
+n03110669, 347, cornet, horn, trumpet, trump
+n03394916, 348, French horn, horn
+n04487394, 349, trombone
+n03494278, 350, harmonica, mouth organ, harp, mouth harp
+n03840681, 351, ocarina, sweet potato
+n03884397, 352, panpipe, pandean pipe, syrinx
+n02804610, 353, bassoon
+n03838899, 354, oboe, hautboy, hautbois
+n04141076, 355, sax, saxophone
+n03372029, 356, flute, transverse flute
+n11939491, 357, daisy
+n12057211, 358, yellow lady's slipper, yellow lady-slipper, Cypripedium calceolus, Cypripedium parviflorum
+n09246464, 359, cliff, drop, drop-off
+n09468604, 360, valley, vale
+n09193705, 361, alp
+n09472597, 362, volcano
+n09399592, 363, promontory, headland, head, foreland
+n09421951, 364, sandbar, sand bar
+n09256479, 365, coral reef
+n09332890, 366, lakeside, lakeshore
+n09428293, 367, seashore, coast, seacoast, sea-coast
+n09288635, 368, geyser
+n03498962, 369, hatchet
+n03041632, 370, cleaver, meat cleaver, chopper
+n03658185, 371, letter opener, paper knife, paperknife
+n03954731, 372, plane, carpenter's plane, woodworking plane
+n03995372, 373, power drill
+n03649909, 374, lawn mower, mower
+n03481172, 375, hammer
+n03109150, 376, corkscrew, bottle screw
+n02951585, 377, can opener, tin opener
+n03970156, 378, plunger, plumber's helper
+n04154565, 379, screwdriver
+n04208210, 380, shovel
+n03967562, 381, plow, plough
+n03000684, 382, chain saw, chainsaw
+n01514668, 383, cock
+n01514859, 384, hen
+n01518878, 385, ostrich, Struthio camelus
+n01530575, 386, brambling, Fringilla montifringilla
+n01531178, 387, goldfinch, Carduelis carduelis
+n01532829, 388, house finch, linnet, Carpodacus mexicanus
+n01534433, 389, junco, snowbird
+n01537544, 390, indigo bunting, indigo finch, indigo bird, Passerina cyanea
+n01558993, 391, robin, American robin, Turdus migratorius
+n01560419, 392, bulbul
+n01580077, 393, jay
+n01582220, 394, magpie
+n01592084, 395, chickadee
+n01601694, 396, water ouzel, dipper
+n01608432, 397, kite
+n01614925, 398, bald eagle, American eagle, Haliaeetus leucocephalus
+n01616318, 399, vulture
+n01622779, 400, great grey owl, great gray owl, Strix nebulosa
+n01795545, 401, black grouse
+n01796340, 402, ptarmigan
+n01797886, 403, ruffed grouse, partridge, Bonasa umbellus
+n01798484, 404, prairie chicken, prairie grouse, prairie fowl
+n01806143, 405, peacock
+n01806567, 406, quail
+n01807496, 407, partridge
+n01817953, 408, African grey, African gray, Psittacus erithacus
+n01818515, 409, macaw
+n01819313, 410, sulphur-crested cockatoo, Kakatoe galerita, Cacatua galerita
+n01820546, 411, lorikeet
+n01824575, 412, coucal
+n01828970, 413, bee eater
+n01829413, 414, hornbill
+n01833805, 415, hummingbird
+n01843065, 416, jacamar
+n01843383, 417, toucan
+n01847000, 418, drake
+n01855032, 419, red-breasted merganser, Mergus serrator
+n01855672, 420, goose
+n01860187, 421, black swan, Cygnus atratus
+n02002556, 422, white stork, Ciconia ciconia
+n02002724, 423, black stork, Ciconia nigra
+n02006656, 424, spoonbill
+n02007558, 425, flamingo
+n02009912, 426, American egret, great white heron, Egretta albus
+n02009229, 427, little blue heron, Egretta caerulea
+n02011460, 428, bittern
+n02012849, 429, crane
+n02013706, 430, limpkin, Aramus pictus
+n02018207, 431, American coot, marsh hen, mud hen, water hen, Fulica americana
+n02018795, 432, bustard
+n02025239, 433, ruddy turnstone, Arenaria interpres
+n02027492, 434, red-backed sandpiper, dunlin, Erolia alpina
+n02028035, 435, redshank, Tringa totanus
+n02033041, 436, dowitcher
+n02037110, 437, oystercatcher, oyster catcher
+n02017213, 438, European gallinule, Porphyrio porphyrio
+n02051845, 439, pelican
+n02056570, 440, king penguin, Aptenodytes patagonica
+n02058221, 441, albatross, mollymawk
+n01484850, 442, great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias
+n01491361, 443, tiger shark, Galeocerdo cuvieri
+n01494475, 444, hammerhead, hammerhead shark
+n01496331, 445, electric ray, crampfish, numbfish, torpedo
+n01498041, 446, stingray
+n02514041, 447, barracouta, snoek
+n02536864, 448, coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch
+n01440764, 449, tench, Tinca tinca
+n01443537, 450, goldfish, Carassius auratus
+n02526121, 451, eel
+n02606052, 452, rock beauty, Holocanthus tricolor
+n02607072, 453, anemone fish
+n02643566, 454, lionfish
+n02655020, 455, puffer, pufferfish, blowfish, globefish
+n02640242, 456, sturgeon
+n02641379, 457, gar, garfish, garpike, billfish, Lepisosteus osseus
+n01664065, 458, loggerhead, loggerhead turtle, Caretta caretta
+n01665541, 459, leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea
+n01667114, 460, mud turtle
+n01667778, 461, terrapin
+n01669191, 462, box turtle, box tortoise
+n01675722, 463, banded gecko
+n01677366, 464, common iguana, iguana, Iguana iguana
+n01682714, 465, American chameleon, anole, Anolis carolinensis
+n01685808, 466, whiptail, whiptail lizard
+n01687978, 467, agama
+n01688243, 468, frilled lizard, Chlamydosaurus kingi
+n01689811, 469, alligator lizard
+n01692333, 470, Gila monster, Heloderma suspectum
+n01693334, 471, green lizard, Lacerta viridis
+n01694178, 472, African chameleon, Chamaeleo chamaeleon
+n01695060, 473, Komodo dragon, Komodo lizard, dragon lizard, giant lizard, Varanus komodoensis
+n01704323, 474, triceratops
+n01697457, 475, African crocodile, Nile crocodile, Crocodylus niloticus
+n01698640, 476, American alligator, Alligator mississipiensis
+n01728572, 477, thunder snake, worm snake, Carphophis amoenus
+n01728920, 478, ringneck snake, ring-necked snake, ring snake
+n01729322, 479, hognose snake, puff adder, sand viper
+n01729977, 480, green snake, grass snake
+n01734418, 481, king snake, kingsnake
+n01735189, 482, garter snake, grass snake
+n01737021, 483, water snake
+n01739381, 484, vine snake
+n01740131, 485, night snake, Hypsiglena torquata
+n01742172, 486, boa constrictor, Constrictor constrictor
+n01744401, 487, rock python, rock snake, Python sebae
+n01748264, 488, Indian cobra, Naja naja
+n01749939, 489, green mamba
+n01751748, 490, sea snake
+n01753488, 491, horned viper, cerastes, sand viper, horned asp, Cerastes cornutus
+n01755581, 492, diamondback, diamondback rattlesnake, Crotalus adamanteus
+n01756291, 493, sidewinder, horned rattlesnake, Crotalus cerastes
+n01629819, 494, European fire salamander, Salamandra salamandra
+n01630670, 495, common newt, Triturus vulgaris
+n01631663, 496, eft
+n01632458, 497, spotted salamander, Ambystoma maculatum
+n01632777, 498, axolotl, mud puppy, Ambystoma mexicanum
+n01641577, 499, bullfrog, Rana catesbeiana
+n01644373, 500, tree frog, tree-frog
+n01644900, 501, tailed frog, bell toad, ribbed toad, tailed toad, Ascaphus trui
+n04579432, 502, whistle
+n04592741, 503, wing
+n03876231, 504, paintbrush
+n03483316, 505, hand blower, blow dryer, blow drier, hair dryer, hair drier
+n03868863, 506, oxygen mask
+n04251144, 507, snorkel
+n03691459, 508, loudspeaker, speaker, speaker unit, loudspeaker system, speaker system
+n03759954, 509, microphone, mike
+n04152593, 510, screen, CRT screen
+n03793489, 511, mouse, computer mouse
+n03271574, 512, electric fan, blower
+n03843555, 513, oil filter
+n04332243, 514, strainer
+n04265275, 515, space heater
+n04330267, 516, stove
+n03467068, 517, guillotine
+n02794156, 518, barometer
+n04118776, 519, rule, ruler
+n03841143, 520, odometer, hodometer, mileometer, milometer
+n04141975, 521, scale, weighing machine
+n02708093, 522, analog clock
+n03196217, 523, digital clock
+n04548280, 524, wall clock
+n03544143, 525, hourglass
+n04355338, 526, sundial
+n03891332, 527, parking meter
+n04328186, 528, stopwatch, stop watch
+n03197337, 529, digital watch
+n04317175, 530, stethoscope
+n04376876, 531, syringe
+n03706229, 532, magnetic compass
+n02841315, 533, binoculars, field glasses, opera glasses
+n04009552, 534, projector
+n04356056, 535, sunglasses, dark glasses, shades
+n03692522, 536, loupe, jeweler's loupe
+n04044716, 537, radio telescope, radio reflector
+n02879718, 538, bow
+n02950826, 539, cannon
+n02749479, 540, assault rifle, assault gun
+n04090263, 541, rifle
+n04008634, 542, projectile, missile
+n03085013, 543, computer keyboard, keypad
+n04505470, 544, typewriter keyboard
+n03126707, 545, crane
+n03666591, 546, lighter, light, igniter, ignitor
+n02666196, 547, abacus
+n02977058, 548, cash machine, cash dispenser, automated teller machine, automatic teller machine, automated teller, automatic teller, ATM
+n04238763, 549, slide rule, slipstick
+n03180011, 550, desktop computer
+n03485407, 551, hand-held computer, hand-held microcomputer
+n03832673, 552, notebook, notebook computer
+n06359193, 553, web site, website, internet site, site
+n03496892, 554, harvester, reaper
+n04428191, 555, thresher, thrasher, threshing machine
+n04004767, 556, printer
+n04243546, 557, slot, one-armed bandit
+n04525305, 558, vending machine
+n04179913, 559, sewing machine
+n03602883, 560, joystick
+n04372370, 561, switch, electric switch, electrical switch
+n03532672, 562, hook, claw
+n02974003, 563, car wheel
+n03874293, 564, paddlewheel, paddle wheel
+n03944341, 565, pinwheel
+n03992509, 566, potter's wheel
+n03425413, 567, gas pump, gasoline pump, petrol pump, island dispenser
+n02966193, 568, carousel, carrousel, merry-go-round, roundabout, whirligig
+n04371774, 569, swing
+n04067472, 570, reel
+n04040759, 571, radiator
+n04019541, 572, puck, hockey puck
+n03492542, 573, hard disc, hard disk, fixed disk
+n04355933, 574, sunglass
+n03929660, 575, pick, plectrum, plectron
+n02965783, 576, car mirror
+n04258138, 577, solar dish, solar collector, solar furnace
+n04074963, 578, remote control, remote
+n03208938, 579, disk brake, disc brake
+n02910353, 580, buckle
+n03476684, 581, hair slide
+n03627232, 582, knot
+n03075370, 583, combination lock
+n03874599, 584, padlock
+n03804744, 585, nail
+n04127249, 586, safety pin
+n04153751, 587, screw
+n03803284, 588, muzzle
+n04162706, 589, seat belt, seatbelt
+n04228054, 590, ski
+n02948072, 591, candle, taper, wax light
+n03590841, 592, jack-o'-lantern
+n04286575, 593, spotlight, spot
+n04456115, 594, torch
+n03814639, 595, neck brace
+n03933933, 596, pier
+n04485082, 597, tripod
+n03733131, 598, maypole
+n03794056, 599, mousetrap
+n04275548, 600, spider web, spider's web
+n01768244, 601, trilobite
+n01770081, 602, harvestman, daddy longlegs, Phalangium opilio
+n01770393, 603, scorpion
+n01773157, 604, black and gold garden spider, Argiope aurantia
+n01773549, 605, barn spider, Araneus cavaticus
+n01773797, 606, garden spider, Aranea diademata
+n01774384, 607, black widow, Latrodectus mactans
+n01774750, 608, tarantula
+n01775062, 609, wolf spider, hunting spider
+n01776313, 610, tick
+n01784675, 611, centipede
+n01990800, 612, isopod
+n01978287, 613, Dungeness crab, Cancer magister
+n01978455, 614, rock crab, Cancer irroratus
+n01980166, 615, fiddler crab
+n01981276, 616, king crab, Alaska crab, Alaskan king crab, Alaska king crab, Paralithodes camtschatica
+n01983481, 617, American lobster, Northern lobster, Maine lobster, Homarus americanus
+n01984695, 618, spiny lobster, langouste, rock lobster, crawfish, crayfish, sea crawfish
+n01985128, 619, crayfish, crawfish, crawdad, crawdaddy
+n01986214, 620, hermit crab
+n02165105, 621, tiger beetle
+n02165456, 622, ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle
+n02167151, 623, ground beetle, carabid beetle
+n02168699, 624, long-horned beetle, longicorn, longicorn beetle
+n02169497, 625, leaf beetle, chrysomelid
+n02172182, 626, dung beetle
+n02174001, 627, rhinoceros beetle
+n02177972, 628, weevil
+n02190166, 629, fly
+n02206856, 630, bee
+n02226429, 631, grasshopper, hopper
+n02229544, 632, cricket
+n02231487, 633, walking stick, walkingstick, stick insect
+n02233338, 634, cockroach, roach
+n02236044, 635, mantis, mantid
+n02256656, 636, cicada, cicala
+n02259212, 637, leafhopper
+n02264363, 638, lacewing, lacewing fly
+n02268443, 639, dragonfly, darning needle, devil's darning needle, sewing needle, snake feeder, snake doctor, mosquito hawk, skeeter hawk
+n02268853, 640, damselfly
+n02276258, 641, admiral
+n02277742, 642, ringlet, ringlet butterfly
+n02279972, 643, monarch, monarch butterfly, milkweed butterfly, Danaus plexippus
+n02280649, 644, cabbage butterfly
+n02281406, 645, sulphur butterfly, sulfur butterfly
+n02281787, 646, lycaenid, lycaenid butterfly
+n01910747, 647, jellyfish
+n01914609, 648, sea anemone, anemone
+n01917289, 649, brain coral
+n01924916, 650, flatworm, platyhelminth
+n01930112, 651, nematode, nematode worm, roundworm
+n01943899, 652, conch
+n01944390, 653, snail
+n01945685, 654, slug
+n01950731, 655, sea slug, nudibranch
+n01955084, 656, chiton, coat-of-mail shell, sea cradle, polyplacophore
+n02319095, 657, sea urchin
+n02321529, 658, sea cucumber, holothurian
+n03584829, 659, iron, smoothing iron
+n03297495, 660, espresso maker
+n03761084, 661, microwave, microwave oven
+n03259280, 662, Dutch oven
+n04111531, 663, rotisserie
+n04442312, 664, toaster
+n04542943, 665, waffle iron
+n04517823, 666, vacuum, vacuum cleaner
+n03207941, 667, dishwasher, dish washer, dishwashing machine
+n04070727, 668, refrigerator, icebox
+n04554684, 669, washer, automatic washer, washing machine
+n03133878, 670, Crock Pot
+n03400231, 671, frying pan, frypan, skillet
+n04596742, 672, wok
+n02939185, 673, caldron, cauldron
+n03063689, 674, coffeepot
+n04398044, 675, teapot
+n04270147, 676, spatula
+n02699494, 677, altar
+n04486054, 678, triumphal arch
+n03899768, 679, patio, terrace
+n04311004, 680, steel arch bridge
+n04366367, 681, suspension bridge
+n04532670, 682, viaduct
+n02793495, 683, barn
+n03457902, 684, greenhouse, nursery, glasshouse
+n03877845, 685, palace
+n03781244, 686, monastery
+n03661043, 687, library
+n02727426, 688, apiary, bee house
+n02859443, 689, boathouse
+n03028079, 690, church, church building
+n03788195, 691, mosque
+n04346328, 692, stupa, tope
+n03956157, 693, planetarium
+n04081281, 694, restaurant, eating house, eating place, eatery
+n03032252, 695, cinema, movie theater, movie theatre, movie house, picture palace
+n03529860, 696, home theater, home theatre
+n03697007, 697, lumbermill, sawmill
+n03065424, 698, coil, spiral, volute, whorl, helix
+n03837869, 699, obelisk
+n04458633, 700, totem pole
+n02980441, 701, castle
+n04005630, 702, prison, prison house
+n03461385, 703, grocery store, grocery, food market, market
+n02776631, 704, bakery, bakeshop, bakehouse
+n02791270, 705, barbershop
+n02871525, 706, bookshop, bookstore, bookstall
+n02927161, 707, butcher shop, meat market
+n03089624, 708, confectionery, confectionary, candy store
+n04200800, 709, shoe shop, shoe-shop, shoe store
+n04443257, 710, tobacco shop, tobacconist shop, tobacconist
+n04462240, 711, toyshop
+n03388043, 712, fountain
+n03042490, 713, cliff dwelling
+n04613696, 714, yurt
+n03216828, 715, dock, dockage, docking facility
+n02892201, 716, brass, memorial tablet, plaque
+n03743016, 717, megalith, megalithic structure
+n02788148, 718, bannister, banister, balustrade, balusters, handrail
+n02894605, 719, breakwater, groin, groyne, mole, bulwark, seawall, jetty
+n03160309, 720, dam, dike, dyke
+n03000134, 721, chainlink fence
+n03930313, 722, picket fence, paling
+n04604644, 723, worm fence, snake fence, snake-rail fence, Virginia fence
+n04326547, 724, stone wall
+n03459775, 725, grille, radiator grille
+n04239074, 726, sliding door
+n04501370, 727, turnstile
+n03792972, 728, mountain tent
+n04149813, 729, scoreboard
+n03530642, 730, honeycomb
+n03961711, 731, plate rack
+n03903868, 732, pedestal, plinth, footstall
+n02814860, 733, beacon, lighthouse, beacon light, pharos
+n07711569, 734, mashed potato
+n07720875, 735, bell pepper
+n07714571, 736, head cabbage
+n07714990, 737, broccoli
+n07715103, 738, cauliflower
+n07716358, 739, zucchini, courgette
+n07716906, 740, spaghetti squash
+n07717410, 741, acorn squash
+n07717556, 742, butternut squash
+n07718472, 743, cucumber, cuke
+n07718747, 744, artichoke, globe artichoke
+n07730033, 745, cardoon
+n07734744, 746, mushroom
+n04209239, 747, shower curtain
+n03594734, 748, jean, blue jean, denim
+n02971356, 749, carton
+n03485794, 750, handkerchief, hankie, hanky, hankey
+n04133789, 751, sandal
+n02747177, 752, ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin
+n04125021, 753, safe
+n07579787, 754, plate
+n03814906, 755, necklace
+n03134739, 756, croquet ball
+n03404251, 757, fur coat
+n04423845, 758, thimble
+n03877472, 759, pajama, pyjama, pj's, jammies
+n04120489, 760, running shoe
+n03062245, 761, cocktail shaker
+n03014705, 762, chest
+n03717622, 763, manhole cover
+n03777754, 764, modem
+n04493381, 765, tub, vat
+n04476259, 766, tray
+n02777292, 767, balance beam, beam
+n07693725, 768, bagel, beigel
+n03998194, 769, prayer rug, prayer mat
+n03617480, 770, kimono
+n07590611, 771, hot pot, hotpot
+n04579145, 772, whiskey jug
+n03623198, 773, knee pad
+n07248320, 774, book jacket, dust cover, dust jacket, dust wrapper
+n04277352, 775, spindle
+n04229816, 776, ski mask
+n02823428, 777, beer bottle
+n03127747, 778, crash helmet
+n02877765, 779, bottlecap
+n04435653, 780, tile roof
+n03724870, 781, mask
+n03710637, 782, maillot
+n03920288, 783, Petri dish
+n03379051, 784, football helmet
+n02807133, 785, bathing cap, swimming cap
+n04399382, 786, teddy, teddy bear
+n03527444, 787, holster
+n03983396, 788, pop bottle, soda bottle
+n03924679, 789, photocopier
+n04532106, 790, vestment
+n06785654, 791, crossword puzzle, crossword
+n03445777, 792, golf ball
+n07613480, 793, trifle
+n04350905, 794, suit, suit of clothes
+n04562935, 795, water tower
+n03325584, 796, feather boa, boa
+n03045698, 797, cloak
+n07892512, 798, red wine
+n03250847, 799, drumstick
+n04192698, 800, shield, buckler
+n03026506, 801, Christmas stocking
+n03534580, 802, hoopskirt, crinoline
+n07565083, 803, menu
+n04296562, 804, stage
+n02869837, 805, bonnet, poke bonnet
+n07871810, 806, meat loaf, meatloaf
+n02799071, 807, baseball
+n03314780, 808, face powder
+n04141327, 809, scabbard
+n04357314, 810, sunscreen, sunblock, sun blocker
+n02823750, 811, beer glass
+n13052670, 812, hen-of-the-woods, hen of the woods, Polyporus frondosus, Grifola frondosa
+n07583066, 813, guacamole
+n03637318, 814, lampshade, lamp shade
+n04599235, 815, wool, woolen, woollen
+n07802026, 816, hay
+n02883205, 817, bow tie, bow-tie, bowtie
+n03709823, 818, mailbag, postbag
+n04560804, 819, water jug
+n02909870, 820, bucket, pail
+n03207743, 821, dishrag, dishcloth
+n04263257, 822, soup bowl
+n07932039, 823, eggnog
+n03786901, 824, mortar
+n04479046, 825, trench coat
+n03873416, 826, paddle, boat paddle
+n02999410, 827, chain
+n04367480, 828, swab, swob, mop
+n03775546, 829, mixing bowl
+n07875152, 830, potpie
+n04591713, 831, wine bottle
+n04201297, 832, shoji
+n02916936, 833, bulletproof vest
+n03240683, 834, drilling platform, offshore rig
+n02840245, 835, binder, ring-binder
+n02963159, 836, cardigan
+n04370456, 837, sweatshirt
+n03991062, 838, pot, flowerpot
+n02843684, 839, birdhouse
+n03482405, 840, hamper
+n03942813, 841, ping-pong ball
+n03908618, 842, pencil box, pencil case
+n03902125, 843, pay-phone, pay-station
+n07584110, 844, consomme
+n02730930, 845, apron
+n04023962, 846, punching bag, punch bag, punching ball, punchball
+n02769748, 847, backpack, back pack, knapsack, packsack, rucksack, haversack
+n10148035, 848, groom, bridegroom
+n02817516, 849, bearskin, busby, shako
+n03908714, 850, pencil sharpener
+n02906734, 851, broom
+n03788365, 852, mosquito net
+n02667093, 853, abaya
+n03787032, 854, mortarboard
+n03980874, 855, poncho
+n03141823, 856, crutch
+n03976467, 857, Polaroid camera, Polaroid Land camera
+n04264628, 858, space bar
+n07930864, 859, cup
+n04039381, 860, racket, racquet
+n06874185, 861, traffic light, traffic signal, stoplight
+n04033901, 862, quill, quill pen
+n04041544, 863, radio, wireless
+n07860988, 864, dough
+n03146219, 865, cuirass
+n03763968, 866, military uniform
+n03676483, 867, lipstick, lip rouge
+n04209133, 868, shower cap
+n03782006, 869, monitor
+n03857828, 870, oscilloscope, scope, cathode-ray oscilloscope, CRO
+n03775071, 871, mitten
+n02892767, 872, brassiere, bra, bandeau
+n07684084, 873, French loaf
+n04522168, 874, vase
+n03764736, 875, milk can
+n04118538, 876, rugby ball
+n03887697, 877, paper towel
+n13044778, 878, earthstar
+n03291819, 879, envelope
+n03770439, 880, miniskirt, mini
+n03124170, 881, cowboy hat, ten-gallon hat
+n04487081, 882, trolleybus, trolley coach, trackless trolley
+n03916031, 883, perfume, essence
+n02808440, 884, bathtub, bathing tub, bath, tub
+n07697537, 885, hotdog, hot dog, red hot
+n12985857, 886, coral fungus
+n02917067, 887, bullet train, bullet
+n03938244, 888, pillow
+n15075141, 889, toilet tissue, toilet paper, bathroom tissue
+n02978881, 890, cassette
+n02966687, 891, carpenter's kit, tool kit
+n03633091, 892, ladle
+n13040303, 893, stinkhorn, carrion fungus
+n03690938, 894, lotion
+n03476991, 895, hair spray
+n02669723, 896, academic gown, academic robe, judge's robe
+n03220513, 897, dome
+n03127925, 898, crate
+n04584207, 899, wig
+n07880968, 900, burrito
+n03937543, 901, pill bottle
+n03000247, 902, chain mail, ring mail, mail, chain armor, chain armour, ring armor, ring armour
+n04418357, 903, theater curtain, theatre curtain
+n04590129, 904, window shade
+n02795169, 905, barrel, cask
+n04553703, 906, washbasin, handbasin, washbowl, lavabo, wash-hand basin
+n02783161, 907, ballpoint, ballpoint pen, ballpen, Biro
+n02802426, 908, basketball
+n02808304, 909, bath towel
+n03124043, 910, cowboy boot
+n03450230, 911, gown
+n04589890, 912, window screen
+n12998815, 913, agaric
+n02992529, 914, cellular telephone, cellular phone, cellphone, cell, mobile phone
+n03825788, 915, nipple
+n02790996, 916, barbell
+n03710193, 917, mailbox, letter box
+n03630383, 918, lab coat, laboratory coat
+n03347037, 919, fire screen, fireguard
+n03769881, 920, minibus
+n03871628, 921, packet
+n03733281, 922, maze, labyrinth
+n03976657, 923, pole
+n03535780, 924, horizontal bar, high bar
+n04259630, 925, sombrero
+n03929855, 926, pickelhaube
+n04049303, 927, rain barrel
+n04548362, 928, wallet, billfold, notecase, pocketbook
+n02979186, 929, cassette player
+n06596364, 930, comic book
+n03935335, 931, piggy bank, penny bank
+n06794110, 932, street sign
+n02825657, 933, bell cote, bell cot
+n03388183, 934, fountain pen
+n04591157, 935, Windsor tie
+n04540053, 936, volleyball
+n03866082, 937, overskirt
+n04136333, 938, sarong
+n04026417, 939, purse
+n02865351, 940, bolo tie, bolo, bola tie, bola
+n02834397, 941, bib
+n03888257, 942, parachute, chute
+n04235860, 943, sleeping bag
+n04404412, 944, television, television system
+n04371430, 945, swimming trunks, bathing trunks
+n03733805, 946, measuring cup
+n07920052, 947, espresso
+n07873807, 948, pizza, pizza pie
+n02895154, 949, breastplate, aegis, egis
+n04204238, 950, shopping basket
+n04597913, 951, wooden spoon
+n04131690, 952, saltshaker, salt shaker
+n07836838, 953, chocolate sauce, chocolate syrup
+n09835506, 954, ballplayer, baseball player
+n03443371, 955, goblet
+n13037406, 956, gyromitra
+n04336792, 957, stretcher
+n04557648, 958, water bottle
+n03187595, 959, dial telephone, dial phone
+n04254120, 960, soap dispenser
+n03595614, 961, jersey, T-shirt, tee shirt
+n04146614, 962, school bus
+n03598930, 963, jigsaw puzzle
+n03958227, 964, plastic bag
+n04069434, 965, reflex camera
+n03188531, 966, diaper, nappy, napkin
+n02786058, 967, Band Aid
+n07615774, 968, ice lolly, lolly, lollipop, popsicle
+n04525038, 969, velvet
+n04409515, 970, tennis ball
+n03424325, 971, gasmask, respirator, gas helmet
+n03223299, 972, doormat, welcome mat
+n03680355, 973, Loafer
+n07614500, 974, ice cream, icecream
+n07695742, 975, pretzel
+n04033995, 976, quilt, comforter, comfort, puff
+n03710721, 977, maillot, tank suit
+n04392985, 978, tape player
+n03047690, 979, clog, geta, patten, sabot
+n03584254, 980, iPod
+n13054560, 981, bolete
+n10565667, 982, scuba diver
+n03950228, 983, pitcher, ewer
+n03729826, 984, matchstick
+n02837789, 985, bikini, two-piece
+n04254777, 986, sock
+n02988304, 987, CD player
+n03657121, 988, lens cap, lens cover
+n04417672, 989, thatch, thatched roof
+n04523525, 990, vault
+n02815834, 991, beaker
+n09229709, 992, bubble
+n07697313, 993, cheeseburger
+n03888605, 994, parallel bars, bars
+n03355925, 995, flagpole, flagstaff
+n03063599, 996, coffee mug
+n04116512, 997, rubber eraser, rubber, pencil eraser
+n04325704, 998, stole
+n07831146, 999, carbonara
+n03255030, 1000, dumbbell
+n00001740, 1001, entity
+n00001930, 1002, physical entity
+n00020827, 1003, matter
+n00020090, 1004, substance
+n00021265, 1005, food, nutrient
+n07566340, 1006, foodstuff, food product
+n07566863, 1007, starches
+n07710616, 1008, potato, white potato, Irish potato, murphy, spud, tater
+n07679356, 1009, bread, breadstuff, staff of life
+n07683786, 1010, loaf of bread, loaf
+n07681926, 1011, cracker
+n07680932, 1012, bun, roll
+n07809096, 1013, ingredient, fixings
+n07809368, 1014, flavorer, flavourer, flavoring, flavouring, seasoner, seasoning
+n07810907, 1015, condiment
+n07582609, 1016, dip
+n07829412, 1017, sauce
+n07838233, 1018, spaghetti sauce, pasta sauce
+n07882497, 1019, concoction, mixture, intermixture
+n07560652, 1020, fare
+n07570720, 1021, nutriment, nourishment, nutrition, sustenance, aliment, alimentation, victuals
+n07557434, 1022, dish
+n07588947, 1023, stew
+n07583197, 1024, soup
+n07712382, 1025, snack food
+n07695965, 1026, sandwich
+n07697100, 1027, hamburger, beefburger, burger
+n07556970, 1028, course
+n07579575, 1029, entree, main course
+n07609840, 1030, dessert, sweet, afters
+n07611358, 1031, frozen dessert
+n07612996, 1032, pudding, pud
+n07800091, 1033, feed, provender
+n07800740, 1034, fodder
+n07881800, 1035, beverage, drink, drinkable, potable
+n07929519, 1036, coffee, java
+n07884567, 1037, alcohol, alcoholic drink, alcoholic beverage, intoxicant, inebriant
+n07891726, 1038, wine, vino
+n07911371, 1039, mixed drink
+n07930554, 1040, punch
+n14778436, 1041, agent
+n03247620, 1042, drug
+n03248958, 1043, drug of abuse, street drug
+n03740161, 1044, medicine, medication, medicament, medicinal drug
+n03994008, 1045, powder
+n00019613, 1046, substance
+n14580897, 1047, material, stuff
+n14974264, 1048, paper
+n15074962, 1049, tissue, tissue paper
+n14939900, 1050, fluid
+n14940386, 1051, liquid
+n15046900, 1052, solid
+n07555863, 1053, food, solid food
+n07622061, 1054, baked goods
+n07705711, 1055, produce, green goods, green groceries, garden truck
+n07705931, 1056, edible fruit
+n07739125, 1057, apple
+n07739506, 1058, eating apple, dessert apple
+n07742704, 1059, berry
+n07747055, 1060, citrus, citrus fruit, citrous fruit
+n07707451, 1061, vegetable, veggie, veg
+n07710007, 1062, solanaceous vegetable
+n07720442, 1063, pepper
+n07720615, 1064, sweet pepper
+n07710283, 1065, root vegetable
+n07713395, 1066, cruciferous vegetable
+n07713895, 1067, cabbage, chou
+n07715561, 1068, squash
+n07715721, 1069, summer squash
+n07717070, 1070, winter squash
+n00007347, 1071, causal agent, cause, causal agency
+n00007846, 1072, person, individual, someone, somebody, mortal, soul
+n09613191, 1073, contestant
+n10439851, 1074, player, participant
+n09820263, 1075, athlete, jock
+n10072708, 1076, explorer, adventurer
+n10019552, 1077, diver, frogman, underwater diver
+n09626238, 1078, peer, equal, match, compeer
+n09816771, 1079, associate
+n10401829, 1080, participant
+n00002684, 1081, object, physical object
+n09287968, 1082, geological formation, formation
+n09366017, 1083, natural depression, depression
+n09366317, 1084, natural elevation, elevation
+n09359803, 1085, mountain, mount
+n09409512, 1086, ridge
+n09214060, 1087, bar
+n09406793, 1088, reef
+n09433442, 1089, shore
+n09443453, 1090, spring, fountain, outflow, outpouring, natural spring
+n00027167, 1091, location
+n08620061, 1092, point
+n08578706, 1093, geographic point, geographical point
+n04602044, 1094, workplace, work
+n00003553, 1095, whole, unit
+n00019128, 1096, natural object
+n09349797, 1097, mechanism
+n09214581, 1098, barrier
+n13086908, 1099, plant part, plant structure
+n13087625, 1100, plant organ
+n11675842, 1101, reproductive structure
+n13134947, 1102, fruit
+n13135832, 1103, seed
+n11689483, 1104, oilseed, oil-rich seed
+n12156819, 1105, grain, caryopsis
+n12157056, 1106, kernel
+n13138842, 1107, pome, false fruit
+n00004258, 1108, living thing, animate thing
+n00004475, 1109, organism, being
+n00017222, 1110, plant, flora, plant life
+n13083586, 1111, vascular plant, tracheophyte
+n11552386, 1112, spermatophyte, phanerogam, seed plant
+n11665372, 1113, angiosperm, flowering plant
+n11669921, 1114, flower
+n12041446, 1115, orchid, orchidaceous plant
+n12056217, 1116, lady's slipper, lady-slipper, ladies' slipper, slipper orchid
+n12992868, 1117, fungus
+n12997654, 1118, basidiomycete, basidiomycetous fungi
+n00015388, 1119, animal, animate being, beast, brute, creature, fauna
+n01905661, 1120, invertebrate
+n01767661, 1121, arthropod
+n01769347, 1122, arachnid, arachnoid
+n01772222, 1123, spider
+n01776192, 1124, acarine
+n01974773, 1125, crustacean
+n01975687, 1126, malacostracan crustacean
+n01976146, 1127, decapod crustacean, decapod
+n01976957, 1128, crab
+n01982650, 1129, lobster
+n01983048, 1130, true lobster
+n02159955, 1131, insect
+n02164464, 1132, beetle
+n02171453, 1133, lamellicorn beetle
+n02171869, 1134, scarabaeid beetle, scarabaeid, scarabaean
+n02188699, 1135, dipterous insect, two-winged insects, dipteran, dipteron
+n02206270, 1136, hymenopterous insect, hymenopteran, hymenopteron, hymenopter
+n02226183, 1137, orthopterous insect, orthopteron, orthopteran
+n02231052, 1138, phasmid, phasmid insect
+n02232951, 1139, dictyopterous insect
+n02246011, 1140, homopterous insect, homopteran
+n02263378, 1141, neuropteron, neuropteran, neuropterous insect
+n02268148, 1142, odonate
+n02274024, 1143, lepidopterous insect, lepidopteron, lepidopteran
+n02274259, 1144, butterfly
+n02274822, 1145, nymphalid, nymphalid butterfly, brush-footed butterfly, four-footed butterfly
+n02279637, 1146, danaid, danaid butterfly
+n02280458, 1147, pierid, pierid butterfly
+n01909422, 1148, coelenterate, cnidarian
+n01914163, 1149, anthozoan, actinozoan
+n01915811, 1150, coral
+n01916925, 1151, stony coral, madrepore, madriporian coral
+n01922303, 1152, worm
+n01940736, 1153, mollusk, mollusc, shellfish
+n01942177, 1154, gastropod, univalve
+n01968315, 1155, cephalopod, cephalopod mollusk
+n02316707, 1156, echinoderm
+n01317541, 1157, domestic animal, domesticated animal
+n02121808, 1158, domestic cat, house cat, Felis domesticus, Felis catus
+n02084071, 1159, dog, domestic dog, Canis familiaris
+n02087122, 1160, hunting dog
+n02098550, 1161, sporting dog, gun dog
+n02099997, 1162, pointer, Spanish pointer
+n02100399, 1163, setter
+n02101108, 1164, spaniel
+n02102605, 1165, water spaniel
+n02101861, 1166, springer spaniel, springer
+n02099029, 1167, retriever
+n02092468, 1168, terrier
+n02095050, 1169, fox terrier
+n02095412, 1170, wirehair, wirehaired terrier, wire-haired terrier
+n02095727, 1171, Welsh terrier
+n02096756, 1172, schnauzer
+n02093056, 1173, bullterrier, bull terrier
+n02087551, 1174, hound, hound dog
+n02090475, 1175, wolfhound
+n02088839, 1176, coonhound
+n02089555, 1177, foxhound
+n02090827, 1178, greyhound
+n02112826, 1179, corgi, Welsh corgi
+n02113335, 1180, poodle, poodle dog
+n02112497, 1181, griffon, Brussels griffon, Belgian griffon
+n02103406, 1182, working dog
+n02104523, 1183, shepherd dog, sheepdog, sheep dog
+n02104882, 1184, Belgian sheepdog, Belgian shepherd
+n02103841, 1185, watchdog, guard dog
+n02106966, 1186, pinscher
+n02109811, 1187, sled dog, sledge dog
+n02107420, 1188, Sennenhunde
+n02108254, 1189, mastiff
+n02108672, 1190, bulldog, English bulldog
+n02111626, 1191, spitz
+n02085374, 1192, toy dog, toy
+n02086346, 1193, toy spaniel
+n02086478, 1194, English toy spaniel
+n02152991, 1195, game
+n02153203, 1196, game bird
+n01795088, 1197, grouse
+n01802721, 1198, phasianid
+n01803078, 1199, pheasant
+n01805801, 1200, peafowl, bird of Juno
+n02384858, 1201, racer
+n01466257, 1202, chordate
+n01471682, 1203, vertebrate, craniate
+n01861778, 1204, mammal, mammalian
+n01886756, 1205, placental, placental mammal, eutherian, eutherian mammal
+n02323449, 1206, lagomorph, gnawing mammal
+n02323902, 1207, leporid, leporid mammal
+n02324045, 1208, rabbit, coney, cony
+n02469914, 1209, primate
+n02496913, 1210, lemur
+n02470325, 1211, ape
+n02470899, 1212, anthropoid ape
+n02480153, 1213, great ape, pongid
+n02483092, 1214, lesser ape
+n02484322, 1215, monkey
+n02489589, 1216, New World monkey, platyrrhine, platyrrhinian
+n02484473, 1217, Old World monkey, catarrhine
+n02503127, 1218, proboscidean, proboscidian
+n02503517, 1219, elephant
+n02075296, 1220, carnivore
+n02131653, 1221, bear
+n02441326, 1222, musteline mammal, mustelid, musteline
+n02507649, 1223, procyonid
+n02134971, 1224, viverrine, viverrine mammal
+n02083346, 1225, canine, canid
+n02115335, 1226, wild dog
+n02118333, 1227, fox
+n02114100, 1228, wolf
+n02120997, 1229, feline, felid
+n02121620, 1230, cat, true cat
+n02124623, 1231, wildcat
+n02127808, 1232, big cat, cat
+n02062017, 1233, aquatic mammal
+n02073250, 1234, sea cow, sirenian mammal, sirenian
+n02075927, 1235, pinniped mammal, pinniped, pinnatiped
+n02076196, 1236, seal
+n02076779, 1237, eared seal
+n02062430, 1238, cetacean, cetacean mammal, blower
+n02062744, 1239, whale
+n02066707, 1240, toothed whale
+n02068974, 1241, dolphin
+n02063224, 1242, baleen whale, whalebone whale
+n02370806, 1243, ungulate, hoofed mammal
+n02373336, 1244, odd-toed ungulate, perissodactyl, perissodactyl mammal
+n02374149, 1245, equine, equid
+n02374451, 1246, horse, Equus caballus
+n02394477, 1247, even-toed ungulate, artiodactyl, artiodactyl mammal
+n02437136, 1248, camel
+n02399000, 1249, ruminant
+n02401031, 1250, bovid
+n02411705, 1251, sheep
+n02419796, 1252, antelope
+n02414578, 1253, wild sheep
+n02415435, 1254, mountain sheep
+n02416519, 1255, goat, caprine animal
+n02417534, 1256, wild goat
+n02407959, 1257, Old World buffalo, buffalo
+n02402010, 1258, bovine
+n02402425, 1259, cattle, cows, kine, oxen, Bos taurus
+n02395003, 1260, swine
+n02453611, 1261, edentate
+n02456962, 1262, sloth, tree sloth
+n02453108, 1263, pachyderm
+n02329401, 1264, rodent, gnawer
+n02364520, 1265, cavy
+n02355227, 1266, squirrel
+n02355477, 1267, tree squirrel
+n01871543, 1268, prototherian
+n01871875, 1269, monotreme, egg-laying mammal
+n01873982, 1270, metatherian
+n01874434, 1271, marsupial, pouched mammal
+n01881171, 1272, phalanger, opossum, possum
+n01877134, 1273, kangaroo
+n01503061, 1274, bird
+n01517565, 1275, ratite, ratite bird, flightless bird
+n01524359, 1276, passerine, passeriform bird
+n01525720, 1277, oscine, oscine bird
+n01529672, 1278, finch
+n01537134, 1279, bunting
+n01557185, 1280, thrush
+n01560105, 1281, nightingale, Luscinia megarhynchos
+n01578575, 1282, corvine bird
+n01591697, 1283, titmouse, tit
+n01604330, 1284, bird of prey, raptor, raptorial bird
+n01605630, 1285, hawk
+n01613294, 1286, eagle, bird of Jove
+n01621127, 1287, owl, bird of Minerva, bird of night, hooter
+n01789386, 1288, gallinaceous bird, gallinacean
+n01816887, 1289, parrot
+n01819115, 1290, cockatoo
+n01820348, 1291, lory
+n01822602, 1292, cuculiform bird
+n01823013, 1293, cuckoo
+n01825930, 1294, coraciiform bird
+n01831712, 1295, apodiform bird
+n01838038, 1296, piciform bird
+n01844917, 1297, aquatic bird
+n01845132, 1298, waterfowl, water bird, waterbird
+n01845477, 1299, anseriform bird
+n01846331, 1300, duck
+n01852861, 1301, sea duck
+n01854415, 1302, merganser, fish duck, sawbill, sheldrake
+n01858441, 1303, swan
+n02000954, 1304, wading bird, wader
+n02002075, 1305, stork
+n02008041, 1306, heron
+n02008796, 1307, egret
+n02014941, 1308, rail
+n02018027, 1309, coot
+n02022684, 1310, shorebird, shore bird, limicoline bird
+n02023341, 1311, plover
+n02025043, 1312, turnstone
+n02026059, 1313, sandpiper
+n02031934, 1314, snipe
+n02016358, 1315, gallinule, marsh hen, water hen, swamphen
+n02016956, 1316, purple gallinule
+n02021795, 1317, seabird, sea bird, seafowl
+n02051474, 1318, pelecaniform seabird
+n02055658, 1319, sphenisciform seabird
+n02055803, 1320, penguin
+n02057731, 1321, pelagic bird, oceanic bird
+n01661091, 1322, reptile, reptilian
+n01661592, 1323, anapsid, anapsid reptile
+n01662622, 1324, chelonian, chelonian reptile
+n01662784, 1325, turtle
+n01663401, 1326, sea turtle, marine turtle
+n01661818, 1327, diapsid, diapsid reptile
+n01674216, 1328, saurian
+n01674464, 1329, lizard
+n01674990, 1330, gecko
+n01676755, 1331, iguanid, iguanid lizard
+n01685439, 1332, teiid lizard, teiid
+n01687665, 1333, agamid, agamid lizard
+n01689411, 1334, anguid lizard
+n01691951, 1335, venomous lizard
+n01692864, 1336, lacertid lizard, lacertid
+n01693783, 1337, chameleon, chamaeleon
+n01694709, 1338, monitor, monitor lizard, varan
+n01695681, 1339, archosaur, archosaurian, archosaurian reptile
+n01699831, 1340, dinosaur
+n01700470, 1341, ornithischian, ornithischian dinosaur
+n01703569, 1342, ceratopsian, horned dinosaur
+n01696633, 1343, crocodilian reptile, crocodilian
+n01698434, 1344, alligator, gator
+n01697178, 1345, crocodile
+n01726692, 1346, snake, serpent, ophidian
+n01727646, 1347, colubrid snake, colubrid
+n01741562, 1348, constrictor
+n01741943, 1349, boa
+n01743605, 1350, python
+n01745125, 1351, elapid, elapid snake
+n01747885, 1352, cobra
+n01749582, 1353, mamba
+n01749742, 1354, black mamba, Dendroaspis augusticeps
+n01752165, 1355, viper
+n01753959, 1356, pit viper
+n01754876, 1357, rattlesnake, rattler
+n01627424, 1358, amphibian
+n01639765, 1359, frog, toad, toad frog, anuran, batrachian, salientian
+n01640846, 1360, true frog, ranid
+n01629276, 1361, salamander
+n01630284, 1362, newt, triton
+n01632047, 1363, ambystomid, ambystomid salamander
+n01473806, 1364, aquatic vertebrate
+n02512053, 1365, fish
+n01480516, 1366, cartilaginous fish, chondrichthian
+n01482071, 1367, elasmobranch, selachian
+n01482330, 1368, shark
+n01483522, 1369, mackerel shark
+n01488918, 1370, requiem shark
+n01495701, 1371, ray
+n02512938, 1372, food fish
+n02534734, 1373, salmon
+n02514825, 1374, bony fish
+n02528163, 1375, teleost fish, teleost, teleostan
+n01428580, 1376, soft-finned fish, malacopterygian
+n01438208, 1377, cypriniform fish
+n01439121, 1378, cyprinid, cyprinid fish
+n02534559, 1379, salmonid
+n02552171, 1380, spiny-finned fish, acanthopterygian
+n02554730, 1381, percoid fish, percoid, percoidean
+n02605316, 1382, butterfly fish
+n02606384, 1383, damselfish, demoiselle
+n02642107, 1384, scorpaenoid, scorpaenoid fish
+n02642644, 1385, scorpaenid, scorpaenid fish
+n02652668, 1386, plectognath, plectognath fish
+n02638596, 1387, ganoid, ganoid fish
+n00021939, 1388, artifact, artefact
+n03575240, 1389, instrumentality, instrumentation
+n03183080, 1390, device
+n03800933, 1391, musical instrument, instrument
+n03614532, 1392, keyboard instrument
+n03928116, 1393, piano, pianoforte, forte-piano
+n03915437, 1394, percussion instrument, percussive instrument
+n04338517, 1395, stringed instrument
+n02880546, 1396, bowed stringed instrument, string
+n03025886, 1397, chordophone
+n03467517, 1398, guitar
+n04586932, 1399, wind instrument, wind
+n02891788, 1400, brass, brass instrument
+n03393324, 1401, free-reed instrument
+n03945615, 1402, pipe
+n04598582, 1403, woodwind, woodwind instrument, wood
+n02817799, 1404, beating-reed instrument, reed instrument, reed
+n03228016, 1405, double-reed instrument, double reed
+n04222847, 1406, single-reed instrument, single-reed woodwind
+n02676261, 1407, acoustic device
+n02688443, 1408, airfoil, aerofoil, control surface, surface
+n02730265, 1409, applicator, applier
+n02855089, 1410, blower
+n02895606, 1411, breathing device, breathing apparatus, breathing machine, ventilator
+n03269401, 1412, electrical device
+n04470953, 1413, transducer
+n03274561, 1414, electro-acoustic transducer
+n03277771, 1415, electronic device
+n03211117, 1416, display, video display
+n03320046, 1417, fan
+n03339643, 1418, filter
+n03508101, 1419, heater, warmer
+n03574816, 1420, instrument
+n03575691, 1421, instrument of execution
+n03733925, 1422, measuring instrument, measuring system, measuring device
+n03735637, 1423, measuring stick, measure, measuring rod
+n03753077, 1424, meter
+n04437953, 1425, timepiece, timekeeper, horologe
+n04555897, 1426, watch, ticker
+n03046257, 1427, clock
+n04134632, 1428, sandglass
+n04438304, 1429, timer
+n03739693, 1430, medical instrument
+n03813176, 1431, navigational instrument
+n03080497, 1432, compass
+n03852280, 1433, optical instrument
+n04272054, 1434, spectacles, specs, eyeglasses, glasses
+n04147495, 1435, scientific instrument
+n03709206, 1436, magnifier
+n03760671, 1437, microscope
+n03667829, 1438, light microscope
+n03484931, 1439, hand glass, simple microscope, magnifying glass
+n04403638, 1440, telescope, scope
+n02751295, 1441, astronomical telescope
+n04565375, 1442, weapon, arm, weapon system
+n03467984, 1443, gun
+n03343853, 1444, firearm, piece, small-arm
+n02759963, 1445, autoloader, self-loader
+n02760429, 1446, automatic firearm, automatic gun, automatic weapon
+n02760855, 1447, automatic rifle, automatic, machine rifle
+n03701391, 1448, machine gun
+n03948459, 1449, pistol, handgun, side arm, shooting iron
+n03614007, 1450, keyboard
+n03664675, 1451, lifting device
+n03699975, 1452, machine
+n03997484, 1453, power tool
+n03996145, 1454, power saw, saw, sawing machine
+n02938886, 1455, calculator, calculating machine
+n03082979, 1456, computer, computing machine, computing device, data processor, electronic computer, information processing system
+n02708224, 1457, analog computer, analogue computer
+n03196324, 1458, digital computer
+n03918480, 1459, personal computer, PC, microcomputer
+n03985232, 1460, portable computer
+n03322940, 1461, farm machine
+n04004475, 1462, printer, printing machine
+n04243941, 1463, slot machine, coin machine
+n04417180, 1464, textile machine
+n03738472, 1465, mechanism
+n03096960, 1466, control, controller
+n03736970, 1467, mechanical device
+n03700963, 1468, machine, simple machine
+n04574999, 1469, wheel
+n04021798, 1470, pump
+n04088797, 1471, ride
+n04586421, 1472, winder
+n04110955, 1473, rotating mechanism
+n03032811, 1474, circle, round
+n03208556, 1475, disk, disc
+n03744840, 1476, memory device, storage device
+n03706653, 1477, magnetic disk, magnetic disc, disk, disc
+n03851341, 1478, optical device
+n03656484, 1479, lens, lense, lens system
+n03099771, 1480, converging lens, convex lens
+n04069276, 1481, reflector
+n03773035, 1482, mirror
+n04081844, 1483, restraint, constraint
+n02889425, 1484, brake
+n02891188, 1485, brake system, brakes
+n03551084, 1486, hydraulic brake, hydraulic brakes
+n03323703, 1487, fastener, fastening, holdfast, fixing
+n03043958, 1488, clip
+n03682487, 1489, lock
+n03940256, 1490, pin
+n04125853, 1491, safety belt, life belt, safety harness
+n04120093, 1492, runner
+n04217718, 1493, signaling device
+n04263760, 1494, source of illumination
+n03636248, 1495, lamp
+n03640988, 1496, lantern
+n03665366, 1497, light, light source
+n04336034, 1498, strengthener, reinforcement
+n02887209, 1499, brace
+n04359589, 1500, support
+n04038440, 1501, rack, stand
+n04341414, 1502, structural member
+n04515129, 1503, upright, vertical
+n03988170, 1504, post
+n04474466, 1505, trap
+n04568557, 1506, web, entanglement
+n03563967, 1507, implement
+n04451818, 1508, tool
+n03154446, 1509, cutting implement
+n03154073, 1510, cutter, cutlery, cutting tool
+n03265032, 1511, edge tool
+n02764044, 1512, ax, axe
+n03623556, 1513, knife
+n03239726, 1514, drill
+n03418242, 1515, garden tool, lawn tool
+n03489162, 1516, hand tool
+n03848348, 1517, opener
+n02877962, 1518, bottle opener
+n04516672, 1519, utensil
+n03621049, 1520, kitchen utensil
+n03101986, 1521, cooking utensil, cookware
+n03101156, 1522, cooker
+n03880531, 1523, pan, cooking pan
+n03990474, 1524, pot
+n04500060, 1525, turner, food turner
+n03039947, 1526, cleaning implement, cleaning device, cleaning equipment
+n02908217, 1527, brush
+n03294833, 1528, eraser
+n04185071, 1529, sharpener
+n03837422, 1530, oar
+n04100174, 1531, rod
+n04608567, 1532, writing implement
+n03906997, 1533, pen
+n04317420, 1534, stick
+n04296261, 1535, staff
+n02788689, 1536, bar
+n03659292, 1537, lever
+n03613592, 1538, key
+n04285622, 1539, sports implement
+n03094503, 1540, container
+n04576211, 1541, wheeled vehicle
+n02834778, 1542, bicycle, bike, wheel, cycle
+n02959942, 1543, car, railcar, railway car, railroad car
+n03484083, 1544, handcart, pushcart, cart, go-cart
+n04170037, 1545, self-propelled vehicle
+n02740533, 1546, armored vehicle, armoured vehicle
+n03684823, 1547, locomotive, engine, locomotive engine, railway locomotive
+n03791235, 1548, motor vehicle, automotive vehicle
+n02958343, 1549, car, auto, automobile, machine, motorcar
+n03790512, 1550, motorcycle, bike
+n03769722, 1551, minibike, motorbike
+n04490091, 1552, truck, motortruck
+n04520170, 1553, van
+n03896419, 1554, passenger van
+n04464852, 1555, tracked vehicle
+n04467099, 1556, trailer, house trailer
+n04543158, 1557, wagon, waggon
+n02970849, 1558, cart
+n02801938, 1559, basket, handbasket
+n02773037, 1560, bag
+n04284002, 1561, spoon
+n04139859, 1562, savings bank, coin bank, money box, bank
+n03206908, 1563, dish
+n02880940, 1564, bowl
+n02839910, 1565, bin
+n04183329, 1566, shaker
+n04531098, 1567, vessel
+n02801525, 1568, basin
+n03593526, 1569, jar
+n02876657, 1570, bottle
+n03603722, 1571, jug
+n04388743, 1572, tank, storage tank
+n04078574, 1573, reservoir
+n03035510, 1574, cistern
+n03241496, 1575, drinking vessel
+n03797390, 1576, mug
+n02946921, 1577, can, tin, tin can
+n03438257, 1578, glass, drinking glass
+n04060904, 1579, receptacle
+n03210683, 1580, dispenser
+n03871083, 1581, package, parcel
+n02883344, 1582, box
+n04340750, 1583, strongbox, deedbox
+n03733644, 1584, measure
+n02974697, 1585, case
+n03294048, 1586, equipment
+n04285146, 1587, sports equipment
+n03446832, 1588, golf equipment
+n02799897, 1589, baseball equipment
+n03472232, 1590, gymnastic apparatus, exerciser
+n02802721, 1591, basketball equipment
+n03134853, 1592, croquet equipment
+n04571292, 1593, weight, free weight, exercising weight
+n03414162, 1594, game equipment
+n03413828, 1595, game
+n04028315, 1596, puzzle
+n02778669, 1597, ball
+n03926148, 1598, photographic equipment
+n02942699, 1599, camera, photographic camera
+n03430959, 1600, gear, paraphernalia, appurtenance
+n03619396, 1601, kit, outfit
+n04091097, 1602, rig
+n03241093, 1603, drill rig, drilling rig, oilrig, oil rig
+n04137444, 1604, satellite, artificial satellite, orbiter
+n04264914, 1605, spacecraft, ballistic capsule, space vehicle
+n03278248, 1606, electronic equipment
+n02757462, 1607, audio system, sound system
+n04077430, 1608, reproducer
+n04315948, 1609, stereo, stereophony, stereo system, stereophonic system
+n03916720, 1610, peripheral, computer peripheral, peripheral device
+n03163973, 1611, data input device, input device
+n04401088, 1612, telephone, phone, telephone set
+n04044498, 1613, radiotelephone, radiophone, wireless telephone
+n02727825, 1614, apparatus, setup
+n03257586, 1615, duplicator, copier
+n04077734, 1616, rescue equipment
+n04447443, 1617, toiletry, toilet articles
+n03128519, 1618, cream, ointment, emollient
+n03113152, 1619, cosmetic
+n03714235, 1620, makeup, make-up, war paint
+n03100490, 1621, conveyance, transport
+n04524313, 1622, vehicle
+n03125870, 1623, craft
+n02686568, 1624, aircraft
+n03510583, 1625, heavier-than-air craft
+n02691156, 1626, airplane, aeroplane, plane
+n03666917, 1627, lighter-than-air craft
+n04530566, 1628, vessel, watercraft
+n02858304, 1629, boat
+n03790230, 1630, motorboat, powerboat
+n04158807, 1631, sea boat
+n04244997, 1632, small boat
+n04128837, 1633, sailing vessel, sailing ship
+n04128499, 1634, sailboat, sailing boat
+n04194289, 1635, ship
+n02965300, 1636, cargo ship, cargo vessel
+n03896103, 1637, passenger ship
+n04552696, 1638, warship, war vessel, combat ship
+n04348184, 1639, submersible, submersible warship
+n03764276, 1640, military vehicle
+n04099429, 1641, rocket, projectile
+n04235291, 1642, sled, sledge, sleigh
+n03678362, 1643, litter
+n04019101, 1644, public transport
+n04468005, 1645, train, railroad train
+n03896233, 1646, passenger train
+n02924116, 1647, bus, autobus, coach, charabanc, double-decker, jitney, motorbus, motorcoach, omnibus, passenger vehicle
+n03091374, 1648, connection, connexion, connector, connecter, connective
+n02755352, 1649, attachment, bond
+n03664943, 1650, ligament
+n03405265, 1651, furnishing
+n03405725, 1652, furniture, piece of furniture, article of furniture
+n02766320, 1653, baby bed, baby's bed
+n02821943, 1654, bedroom furniture
+n02818832, 1655, bed
+n02933112, 1656, cabinet
+n03015254, 1657, chest of drawers, chest, bureau, dresser
+n03636649, 1658, lamp
+n03842156, 1659, office furniture
+n04161981, 1660, seat
+n02828884, 1661, bench
+n03001627, 1662, chair
+n03002210, 1663, chair of state
+n04256520, 1664, sofa, couch, lounge
+n03100346, 1665, convertible, sofa bed
+n04379243, 1666, table
+n04379964, 1667, table
+n04549122, 1668, wall unit
+n04118021, 1669, rug, carpet, carpeting
+n03151077, 1670, curtain, drape, drapery, mantle, pall
+n06254669, 1671, medium
+n06263609, 1672, print media
+n06263369, 1673, press, public press
+n06595351, 1674, magazine, mag
+n04377057, 1675, system
+n03078287, 1676, communication system
+n04400289, 1677, telecommunication system, telecom system, telecommunication equipment, telecom equipment
+n04341686, 1678, structure, construction
+n02733524, 1679, arch
+n02735688, 1680, area
+n02898711, 1681, bridge, span
+n02913152, 1682, building, edifice
+n03322570, 1683, farm building
+n03544360, 1684, house
+n04079244, 1685, residence
+n04073948, 1686, religious residence, cloister
+n03859280, 1687, outbuilding
+n04187547, 1688, shed
+n03953416, 1689, place of worship, house of prayer, house of God, house of worship
+n04210390, 1690, shrine
+n04417809, 1691, theater, theatre, house
+n02914991, 1692, building complex, complex
+n03956922, 1693, plant, works, industrial plant
+n03316406, 1694, factory, mill, manufacturing plant, manufactory
+n03074380, 1695, column, pillar
+n03171356, 1696, defensive structure, defense, defence
+n03385557, 1697, fortification, munition
+n03297735, 1698, establishment
+n03574555, 1699, institution
+n03907654, 1700, penal institution, penal facility
+n03111690, 1701, correctional institution
+n03953020, 1702, place of business, business establishment
+n03748162, 1703, mercantile establishment, retail store, sales outlet, outlet
+n03722288, 1704, marketplace, market place, mart, market
+n04202417, 1705, shop, store
+n03546340, 1706, housing, lodging, living accommodations
+n03259505, 1707, dwelling, home, domicile, abode, habitation, dwelling house
+n03638321, 1708, landing, landing place
+n03743902, 1709, memorial, monument
+n03839993, 1710, obstruction, obstructor, obstructer, impediment, impedimenta
+n02796623, 1711, barrier
+n03327234, 1712, fence, fencing
+n04046974, 1713, rail fence
+n03454707, 1714, grate, grating
+n03795580, 1715, movable barrier
+n03221720, 1716, door
+n03427296, 1717, gate
+n04191595, 1718, shelter
+n04411264, 1719, tent, collapsible shelter
+n04217882, 1720, signboard, sign
+n04361095, 1721, supporting structure
+n03391770, 1722, framework
+n04038727, 1723, rack
+n04360501, 1724, support
+n04460130, 1725, tower
+n03129123, 1726, creation
+n04007894, 1727, product, production
+n04599396, 1728, work, piece of work
+n06589574, 1729, publication
+n04188643, 1730, sheet, flat solid
+n02856463, 1731, board
+n03959936, 1732, plate
+n03309808, 1733, fabric, cloth, material, textile
+n03932670, 1734, piece of cloth, piece of material
+n04459362, 1735, towel
+n03122748, 1736, covering
+n04605726, 1737, wrapping, wrap, wrapper
+n03590306, 1738, jacket
+n04151940, 1739, screen, cover, covert, concealment
+n03380867, 1740, footwear, footgear
+n04199027, 1741, shoe
+n02872752, 1742, boot
+n03050026, 1743, cloth covering
+n03237639, 1744, dressing, medical dressing
+n02785648, 1745, bandage, patch
+n02680110, 1746, adhesive bandage
+n02820210, 1747, bedclothes, bed clothing, bedding
+n03366823, 1748, floor cover, floor covering
+n03727837, 1749, mat
+n03051540, 1750, clothing, article of clothing, vesture, wear, wearable, habiliment
+n02756098, 1751, attire, garb, dress
+n03206718, 1752, disguise
+n03476083, 1753, hairpiece, false hair, postiche
+n04015204, 1754, protective garment
+n02671780, 1755, accessory, accoutrement, accouterment
+n02827606, 1756, belt
+n03859495, 1757, outerwear, overclothes
+n03450516, 1758, gown, robe
+n03419014, 1759, garment
+n04531873, 1760, vest, waistcoat
+n04371563, 1761, swimsuit, swimwear, bathing suit, swimming costume, bathing costume
+n04489008, 1762, trouser, pant
+n04143897, 1763, scarf
+n03816005, 1764, neckwear
+n03815615, 1765, necktie, tie
+n04230808, 1766, skirt
+n03863923, 1767, overgarment, outer garment
+n03045337, 1768, cloak
+n03057021, 1769, coat
+n04049405, 1770, raincoat, waterproof
+n04370048, 1771, sweater, jumper
+n04021028, 1772, pullover, slipover
+n04097866, 1773, robe
+n04197391, 1774, shirt
+n04508163, 1775, undergarment, unmentionable
+n03490324, 1776, handwear, hand wear
+n03441112, 1777, glove
+n03502509, 1778, headdress, headgear
+n03513137, 1779, helmet
+n02954340, 1780, cap
+n03497657, 1781, hat, chapeau, lid
+n03381126, 1782, footwear
+n03540267, 1783, hosiery, hose
+n04434932, 1784, tights, leotards
+n04323819, 1785, stocking
+n04509592, 1786, uniform
+n03825080, 1787, nightwear, sleepwear, nightclothes
+n02728440, 1788, apparel, wearing apparel, dress, clothes
+n04603872, 1789, workwear
+n04596852, 1790, woman's clothing
+n03236735, 1791, dress, frock
+n04014297, 1792, protective covering, protective cover, protection
+n04192858, 1793, shield
+n03959701, 1794, plate, scale, shell
+n02740764, 1795, armor plate, armour plate, armor plating, plate armor, plate armour
+n03513376, 1796, helmet
+n02955065, 1797, cap
+n04105068, 1798, roof
+n02851099, 1799, blind, screen
+n04589190, 1800, window blind
+n04181718, 1801, shade
+n04151581, 1802, screen
+n02739668, 1803, armor, armour
+n02862048, 1804, body armor, body armour, suit of armor, suit of armour, coat of mail, cataphract
+n03725035, 1805, mask
+n03314378, 1806, face mask
+n04187061, 1807, sheath
+n04191943, 1808, shelter
+n02951843, 1809, canopy
+n04453910, 1810, top, cover
+n02954938, 1811, cap
+n03873064, 1812, padding, cushioning
+n03151500, 1813, cushion
+n03076708, 1814, commodity, trade good, good
+n03093574, 1815, consumer goods
+n03257877, 1816, durables, durable goods, consumer durables
+n02729837, 1817, appliance
+n03251766, 1818, dryer, drier
+n03528263, 1819, home appliance, household appliance
+n03620052, 1820, kitchen appliance
+n03063338, 1821, coffee maker
+n03862676, 1822, oven
+n04580493, 1823, white goods
+n03252064, 1824, drygoods, soft goods
+n04580298, 1825, white goods, household linen
+n03672352, 1826, linen
+n02807260, 1827, bath linen
+n03302121, 1828, excavation
+n03982060, 1829, pool
+n03169390, 1830, decoration, ornament, ornamentation
+n02681518, 1831, adornment
+n03597469, 1832, jewelry, jewellery
+n03178782, 1833, design, pattern, figure
+n03282591, 1834, emblem
+n03964744, 1835, plaything, toy
+n00022903, 1836, article
+n04550840, 1837, ware
+n04597804, 1838, woodenware
+n04381994, 1839, tableware
+n03153375, 1840, cutlery, eating utensil
+n03133538, 1841, crockery, dishware
+n04362025, 1842, surface
+n03536348, 1843, horizontal surface, level
+n03961939, 1844, platform
+n03892891, 1845, part, portion
+n03932203, 1846, piece
+n00002137, 1847, abstraction, abstract entity
+n00024264, 1848, attribute
+n00027807, 1849, shape, form
+n13865483, 1850, round shape
+n13899200, 1851, sphere
+n13899404, 1852, ball, globe, orb
+n09289709, 1853, globule
+n00033020, 1854, communication
+n06793231, 1855, sign
+n06791372, 1856, signal, signaling, sign
+n06873571, 1857, visual signal
+n06874019, 1858, light
+n00031921, 1859, relation
+n13809207, 1860, part, portion, component part, component, constituent
