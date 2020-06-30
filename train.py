@@ -3,6 +3,7 @@ if __name__ == '__main__':
     import random
     import torch
     import torch.nn as nn
+    from torch.optim.lr_scheduler import ExponentialLR
     from torch.utils.data import DataLoader
     from torchvision.datasets import ImageNet
     from torchvision.transforms import CenterCrop, Compose, Normalize, RandomCrop, RandomHorizontalFlip, RandomResizedCrop, Resize, ToTensor
@@ -68,7 +69,7 @@ if __name__ == '__main__':
                                   batch_size=opt.batch_size,
                                   num_workers=opt.n_workers,
                                   shuffle=False)
-    
+
 
     backbone_network = opt.backbone_network
     n_layers = opt.n_layers
@@ -78,8 +79,7 @@ if __name__ == '__main__':
 
         model = MobileNet(width_multiplier=opt.width_multiplier,
                           attention=opt.attention_module,
-                          dataset=opt.dataset,
-                          group_size=opt.group_size)
+                          dataset=opt.dataset)
 
     if backbone_network == 'ResNet':
         from models import ResidualNetwork
@@ -125,16 +125,25 @@ if __name__ == '__main__':
         optim = torch.optim.SGD(model.parameters(),
                                 lr=opt.lr,
                                 momentum=opt.momentum,
-                                weight_decay=opt.weight_decay)
+                                weight_decay=opt.weight_decay,
+                                nesterov=True)
 
         milestones = [150, 225]
 
     elif dataset_name == 'ImageNet1K':
-        optim = torch.optim.SGD(model.parameters(),
-                                lr=opt.lr,
-                                momentum=opt.momentum,
-                                weight_decay=opt.weight_decay)
-        milestones = [30, 60]
+        if backbone_network == "MobileNet":
+            optim = torch.optim.SGD(model.parameters(),
+                                    lr=0.045,
+                                    momentum=0.9,
+                                    weight_decay=4e-5)
+            lr_scheduler = ExponentialLR(optim, gamma=0.98)
+
+        else:
+            optim = torch.optim.SGD(model.parameters(),
+                                    lr=opt.lr,
+                                    momentum=opt.momentum,
+                                    weight_decay=opt.weight_decay, nesterov=True)
+            milestones = [30, 60, 90]
 
     elif dataset_name == 'SVHN':
         optim = torch.optim.SGD(model.parameters(),
@@ -166,7 +175,8 @@ if __name__ == '__main__':
     top1_hist = list(100 for i in range(100))
     top5_hist = list(100 for i in range(100))  # to see 100 latest top5 error
     for epoch in range(opt.epoch_recent, opt.epochs):
-        adjust_lr(optim, epoch, opt.lr, milestones=milestones, gamma=0.1)
+        if backbone_network != "MobileNet":
+            adjust_lr(optim, epoch, opt.lr, milestones=milestones, gamma=0.1)
         list_loss = list()
         model.train()
 
@@ -210,6 +220,8 @@ if __name__ == '__main__':
 
             if opt.debug:
                 break
+        if backbone_network == "MobileNet":
+            lr_scheduler.step()
 
         with open(os.path.join(opt.dir_analysis, 'train.txt'), 'a') as log:
             log.write(str(epoch + 1) + ', ' +
@@ -230,8 +242,8 @@ if __name__ == '__main__':
                 top1, top5 = cal_top1_and_top5(output, label)
                 list_top1.append(top1.cpu().numpy())
                 list_top5.append(top5.cpu().numpy())
-                if opt.debug:
-                    break
+#                if opt.debug:
+#                    break
 
             state = {'epoch': epoch + 1,
                      'state_dict': model.state_dict(),

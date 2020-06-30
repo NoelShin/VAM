@@ -7,21 +7,21 @@ class BaseOptions(object):
     def __init__(self):
         parser = argparse.ArgumentParser()
         parser.add_argument('--debug', action='store_true', default=False)
-        parser.add_argument('--gpu_ids', type=str, default='0, 1, 2, 3')
+        parser.add_argument('--gpu_ids', type=str, default='0,1,2')
         parser.add_argument('--manual_seed', type=int, default=0)
-        parser.add_argument('--additional_name', type=str, default="ln_weighted_2")
+        parser.add_argument('--additional_name', type=str, default="-test")
 
         # Backbone options
-        parser.add_argument('--backbone_network', type=str, default='ResNet',
-                            help='Choose among [ResNet, WideResNet, ResNext]')
-        parser.add_argument('--n_layers', type=int, default=34, help='# of weight layers.')
-        parser.add_argument('--n_groups', type=int, default=8, help='ResNext cardinality.')
-        parser.add_argument('--widening_factor', type=float, default=2.0, help='WideResNet parameter')
+        parser.add_argument('--backbone_network', type=str, default='MobileNet',
+                            help='Choose among [ResNet, WideResNet, ResNext, MobileNet]')
+        parser.add_argument('--n_layers', type=int, default=18, help='# of weight layers.')
+        parser.add_argument('--n_groups', type=int, default=32, help='ResNext cardinality.')
+        parser.add_argument('--widening_factor', type=float, default=8.0, help='WideResNet parameter')
         parser.add_argument('--width_multiplier', type=float, default=1.0, help='MobileNet parameter')
 
         # Attention options
-        parser.add_argument('--attention_module', type=str, default='VAM',
-                            help='Choose among [BAM, CBAM, None, SE, TAM]')
+        parser.add_argument('--attention_module', type=str, default='None',
+                            help='Choose among [BAM, CBAM, None, SE]')
         # parser.add_argument('--conversion_factor', type=int, default=8)
         parser.add_argument('--group_size', type=int, default=2, help='TAM parameter')
 
@@ -33,7 +33,13 @@ class BaseOptions(object):
         parser.add_argument('--iter_report', type=int, default=5)
         parser.add_argument('--iter_save', type=int, default=100000)
         parser.add_argument('--n_workers', type=int, default=16)
+        parser.add_argument('--path_ImageNet', type=str, default="../../data/ImageNet2012")
+        parser.add_argument('--path_label_train', type=str, default="./training_WNID2class.txt")
+        parser.add_argument('--path_label_val', type=str, default="./ILSVRC2012_validation_ground_truth.txt")
         parser.add_argument('--resume', action='store_true', default=False)
+        parser.add_argument('--resume_top1', action='store_true', default=False)
+        parser.add_argument('--resume_top5', action='store_true', default=False)
+        parser.add_argument('--resume_latest', action='store_true', default=True)
 
         self.parser = parser
 
@@ -48,8 +54,8 @@ class BaseOptions(object):
 
         elif args.dataset == 'ImageNet1K':
             args.batch_size = 256  # default 256
-            args.dir_dataset = '/datasets/ImageNet'
-            args.epochs = 90
+            args.dir_dataset = args.path_ImageNet
+            args.epochs = 100
             args.lr = 0.1
             args.momentum = 0.9
             args.weight_decay = 1e-4
@@ -81,7 +87,7 @@ class BaseOptions(object):
         os.makedirs(args.dir_model, exist_ok=True)
 
         args.path_log_analysis = os.path.join(args.dir_analysis, 'log.txt')
-        if os.path.isfile(args.path_log_analysis):
+        if os.path.isfile(args.path_log_analysis) and not args.debug:
             answer = input("Already existed log {}. Do you want to overwrite it? [y/n] : ".format(model_name))
             if answer == 'y':
                 with open(os.path.join(args.dir_analysis, 'train.txt'), 'wt') as log:
@@ -125,19 +131,20 @@ class BaseOptions(object):
                         args.top5 = best_top5['Top5']
                         log.close()
 
-                    if os.path.isfile(os.path.join(args.dir_model, 'latest.pt')):
+                    if args.resume_latest:
+                        assert os.path.isfile(os.path.join(args.dir_model, 'latest.pt'))
                         args.epoch_recent = epoch_recent
-                        args.path_model = os.path.join(args.dir_model, 'top1_best.pt')
-                        print("Training resumes at epoch", args.epoch_recent)
+                        args.path_model = os.path.join(args.dir_model, 'latest.pt')
+                        # print("Training resumes at epoch", args.epoch_recent)
 
-                    else:
-                        if args.epoch_top1 > args.epoch_top5:
-                            args.epoch_recent = args.epoch_top1
-                            args.path_model = os.path.join(args.dir_model, 'top1_best.pt')
-                        else:
-                            args.epoch_recent = args.epoch_top5
-                            args.path_model = os.path.join(args.dir_model, 'top5_best.pt')
-                        print("Training resumes at epoch", args.epoch_recent)
+                    elif args.resume_top1:
+                        # if args.epoch_top1 > args.epoch_top5:
+                        args.epoch_recent = args.epoch_top1
+                        args.path_model = os.path.join(args.dir_model, 'top1_best.pt')
+                    elif args.resume_top5:
+                        args.epoch_recent = args.epoch_top5
+                        args.path_model = os.path.join(args.dir_model, 'top5_best.pt')
+                    print("Training resumes at epoch", args.epoch_recent)
 
                 else:
                     NotImplementedError
