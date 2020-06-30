@@ -3,13 +3,13 @@ import torch.nn as nn
 
 
 class VAM(nn.Module):
-    def __init__(self, n_ch, group_size, size):
+    def __init__(self, n_ch, size):
         super(VAM, self).__init__()
         init_ch = n_ch
         #self.spatial_branch = nn.AdaptiveAvgPool2d((1, 1))
         # self.channel_branch = nn.Conv2d(n_ch, 1, 1, bias=False)
         self.spatial_branch = SpatialBranch(n_ch, size)
-        
+
         self.ln_sp = nn.LayerNorm((n_ch, 1, 1)) # nn.BatchNorm2d(n_ch)
         # self.ln_ch = nn.LayerNorm((1, size, size)) # nn.BatchNorm2d(1)
         # self.ln = nn.LayerNorm((n_ch, size, size), elementwise_affine=True)

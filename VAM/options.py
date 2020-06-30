@@ -21,7 +21,7 @@ class BaseOptions(object):
 
         # Attention options
         parser.add_argument('--attention_module', type=str, default='VAM',
-                            help='Choose among [BAM, CBAM, None, SE, TAM]')
+                            help='Choose among [BAM, CBAM, None, SE]')
         # parser.add_argument('--conversion_factor', type=int, default=8)
         parser.add_argument('--group_size', type=int, default=2, help='TAM parameter')
 
